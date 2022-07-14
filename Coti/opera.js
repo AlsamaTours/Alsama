@@ -20,9 +20,9 @@ window.addEventListener('DOMContentLoaded',(e)=>{
      //btn.style.display = 'none';
     //var split = name.slice(47);
     console.log(name);
-    var split = name.slice(48);
-    console.log(split);
-    document.getElementById('task-id').value = split;
+    var split = name..split('#');
+   
+    document.getElementById('task-id').value = split[1];
     btn.style.display = "none";
      BuscarCliente();
 
