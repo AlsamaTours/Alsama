@@ -2062,8 +2062,7 @@ function inicio(){ //Se guarda tdo menos los tours
   trans.innerHTML = ``;
   taskForm.style.display = "block";
   taskForm.innerHTML =`               
-  <div class="row">
-    <div class="col-md-6 col-md-offset-3">
+
       <div class="text-center">
         <h2>One and Half day tours</h2>
 
@@ -2071,9 +2070,7 @@ function inicio(){ //Se guarda tdo menos los tours
             <br>4% Value Added Taxes (VAT), must be summed up to all rates <br> From July 2021 to July 2022<br><strong>Click the name to see more information<strong>.
         </p>
       </div>
-      <hr>
-    </div>
-  </div>
+
 
   <div class="text-center" >
       <a  class="btn btn-primary btn-lg more" onclick="Jaco()">Jaco</a>
