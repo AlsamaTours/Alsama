@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alsama Tours</title>
+
+    <!-- Bootstrap -->
+    <link rel="shortcut icon" href="../img/Iconos/favicon.png">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/jquery.bxslider.css">
+    <link href="../css/overwrite.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="../css/set1.css" />
+    <link rel="stylesheet" type="text/css" href="../css/Chat.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="../css/layout.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+<section class="navigation">
+    <div class="nav-container">
+        <div class="brand">
+            <a href="Inicio.html">Alsama Tours</a>
+        </div>
+        <nav class="navhid">
+            <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+            <ul class="nav-list">
+                <li>
+                    <a href="Inicio.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="#!">Services</a>
+                    <ul class="nav-dropdown">
+                        <li>
+                            <a href="Servicio.html#Transport">Transporte</a>
+                        </li>
+                        <li>
+                            <a href="Servicio.html#SanJose">Tours San Jose</a>
+                        </li>
+                        <li>
+                            <a href="../Jaco%20One%20Day%20Tours.pdf">Tours Jaco</a>
+                        </li>
+                        <li>
+                            <a href="Servicio.html#RentaCar">Renta de Carros</a>
+                        </li>
+                        <li>
+                            <a href="Servicio.html#Packages">Paquetes Turisticos</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#!">lenguaje</a>
+                    <ul class="nav-dropdown">
+
+                        <li>
+                            <a href="../index.html">English</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="Contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</section>
+
+
+
+
+
+<section id="hero1" class="hero1">
+    <div class="inner">
+        <div class="copy">
+            <input type="text" name="name" class="form-control home" id="name" placeholder="ID" data-rule="minlen:4" data-msg="Ingrese al menos 4 caracteres" />
+            <button class="btn btnBuscar" onclick="BuscarCoti()">Buscar</button>
+        </div>
+    </div>
+</section>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="text-center">
+                <h2>Descubre Costa Rica</h2>
+                <p>Descubre lo mejor de nuestro pais como el cafe, volcanes, playas, animales y mas</p>
+            </div>
+            <hr>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="box">
+            <div class="col-md-4">
+                <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.2s">
+                    <div class="icon">
+                        <i class="fa fa-heart-o fa-3x"></i>
+                    </div>
+                    <h4>Experiencia</h4>
+                    <p>Wanderlust te brinda la mejor experiencia en tu viaje</p>
+                    <div class="ficon">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.8s">
+
+                    <div class="icon">
+                        <i class="fa fa-desktop fa-3x"></i>
+                    </div>
+                    <h4>Facil Acceso</h4>
+                    <p>Consulta tus reservas en linea</p>
+                    <div class="ficon">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.4s">
+
+                    <div class="icon">
+                        <i class="fa fa-location-arrow fa-3x"></i>
+                    </div>
+                    <h4>Siempre a tiempo</h4>
+                    <p>¿Solo tienes un dia? Nosotros te ayudamos para que apreveches cada minuto</p>
+                    <div class="ficon">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="text-center">
+                <h2>Mas populares</h2>
+                <div id="TextInfo"><p>
+                    <br>El 4% de impuesto al valor agregado (IVA), debe sumarse a todas las tarifas <br> Desde Julio 2021 hasta Julio 2022<br>
+                </p>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="text-center">
+                <h2>Desde San Jose</h2>
+            </div>
+            <hr>
+        </div>
+
+    </div>
+</div>
+
+<ul class="cards">
+    <li class="cards__item">
+        <div class="card">
+            <div class="card__image card__image--flowers"></div>
+            <div class="card__content">
+                <div class="card__title">6 in 1</div>
+                <p class="card__text">Combina seis actividades populares en la selva tropical en un solo día repleto de aventuras en este
+                    tour al Parque Nacional Braulio Carrillo desde San José. Vuela por tirolinas sobre el dosel de la selva tropical,
+                    Visite un terrario y un jardín de mariposas, camine por senderos naturales y más, todo con transporte de ida y vuelta sin
+                    complicaciones desde su hotel en San José y un almuerzo típico costarricense para seguir adelante.
+                </p>
+                <button onclick="SeisEnUnoEspañol()" class="btn btn--block card__btn" >Mas info</button>
+            </div>
+        </div>
+    </li>
+    <li class="cards__item">
+        <div class="card">
+            <div class="card__image card__image--river"></div>
+            <div class="card__content">
+                <div class="card__title">Vip City Bus</div>
+                <p class="card__text">Vip City Bus tiene a su disposición el mejor city tour de Costa Rica. Nuestro exclusivo autobús turístico de dos pisos
+                    lo llevará al centro de San José desde su hotel para presenciar los principales lugares históricos de la ciudad y
+                    puntos de referencia para una experiencia cultural inmersiva y panorámica y una mejor comprensión de la evolución de Costa Rica.</p>
+                <button onclick="VipEspañol()" class="btn btn--block card__btn">Mas informacion</button>
+            </div>
+        </div>
+    </li>
+    <li class="cards__item">
+        <div class="card">
+            <div class="card__image card__image--fence"></div>
+            <div class="card__content">
+                <div class="card__title">Combo Tour</div>
+                <p class="card__text">Disfrute de las 3 maravillas costarricenses, el mejor tour de café, el espléndido volcán Poás y visite la belleza de nuestra flora y fauna características. </p>
+                <button onclick="ComboEspañol()" class="btn btn--block card__btn">Mas informacion</button>
+            </div>
+        </div>
+    </li>
+</ul>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="text-center">
+                <h2>Desde Jaco</h2>
+            </div>
+            <hr>
+        </div>
+    </div>
+</div>
+<ul class="cards">
+    <li class="cards__item">
+        <div class="card">
+            <div class="card__image card__image--Jaco"></div>
+            <div class="card__content">
+                <div class="card__title">Isla Tortuga </div>
+                <p class="card__text"> Descubre la magia de una isla de ensueño. Está ubicado en el Golfo de Nicoya,
+                    Costa Rica, a 12 millas náuticas de Puntarenas.
+                </p>
+                <button onclick="TortugaJacoEspañol()" class="btn btn--block card__btn">Mas informacion</button>
+            </div>
+        </div>
+    </li>
+    <li class="cards__item">
+        <div class="card">
+            <div class="card__image card__image--fiveinone"></div>
+            <div class="card__content">
+                <div class="card__title">Adrenalina Extrema</div>
+                <p class="card__text">Comienza este gran viaje volando sobre las copas de los árboles en nuestro recorrido en teleférico mientras aprendes todo sobre la naturaleza.
+                    que te rodea, luego vuela por encima de las nubes y vuela sobre las copas de los árboles y sumérgete en la naturaleza y sus alrededores experimentando
+                    de primera mano por qué Costa Rica es el mejor destino de Aventura y Ecoturismo del mundo.
+                </p>
+                <button onclick="CincoEnUnoEspañol()" class="btn btn--block card__btn">Mas informacion</button>
+            </div>
+        </div>
+    </li>
+    <li class="cards__item">
+        <div class="card">
+            <div class="card__image card__image--tocori"></div>
+            <div class="card__content">
+                <div class="card__title">Montañas y Cataratas</div>
+                <p class="card__text">Deje que Don Gilberto y su familia le muestren la verdadera Costa Rica, ¡A caballo! Una vez que te recogen comienza la aventura en la historia
+                    y la naturaleza, comenzando con los indios de Quepos y lo lleva a través de los cambios de Manuel Antonio hoy </p>
+                <button onclick="TocoriEspañol()" class="btn btn--block card__btn">Mas informacion</button>
+            </div>
+        </div>
+    </li>
+</ul>
+
+
+
+<section id="hero2" class="hero2">
+    <div class="container">
+        <div class="row">
+            <div class="Centro">
+                <div class="keep">
+                    <div class="Cuadrado">
+
+
+                        <h2>Suscribete</h2>
+
+                        <p>Mantente informado y obten un 5% de descuento</p>
+                        <form action="https://formsubmit.co/info@thewanderlustcr.com" method="POST">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next" value="https://www.thewanderlustcr.com/#Exito">
+
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Correo" data-rule="email" data-msg="Please enter a valid email" required/>
+                                <div class="validation"></div>
+                            </div>
+                            <input type="hidden" name="_subject" value="Suscripcion 5%">
+                            <input type="hidden" name="_autoresponse" value="thanks for subscribing, now you have a 5% discount">
+                            <div class="text-center" id="confirmacion"><button type="submit" class="btn btn-primary btn-lg">Enviar</button></div>
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Messenger Plugin de chat Code -->
+<div id="fb-root"></div>
+
+<!-- Your Plugin de chat code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "1546073212118760");
+    chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            xfbml            : true,
+            version          : 'v12.0'
+        });
+    };
+
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
+<div class="inner-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 f-contact">
+                <h3 class="widgetheading">Contactanos</h3>
+                <a href="mailto:info@thewanderlustcr.com">
+                    <p><i class="fa fa-envelope"></i> info@thewanderlustcr.com</p>
+                </a>
+                <a href="https://www.facebook.com/qr/4694313090628074">
+                    <p><i class="fa fa-facebook"></i> Wanderlust Costa Rica</p>
+                </a>
+                <a href="https://instagram.com/wanderlust_costa_rica?utm_medium=copy_link">
+                    <p><i class="fa fa-instagram"></i> wanderlust_costa_rica</p>
+                </a>
+                <a href="https://wa.me/50661672539">
+                    <p><i class="fa fa-phone"></i> +506 6167 2539</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="../js/script.js"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<script src="../js/jquery-2.1.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/wow.min.js"></script>
+<script src="../js/jquery.easing.1.3.js"></script>
+<script src="../js/jquery.isotope.min.js"></script>
+<script src="../js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="../js/fliplightbox.min.js"></script>
+
+<script src="../js/functions.js"></script>
+<script src="../js/Bs.js"></script>
+<script src="../js/Idioma.js"></script>
+<script src="../js/IndexOpera.js"></script>
+<script src="opera.js"></script>
+
+</body>
+<footer>
+    <div class="last-div">
+        <div class="container">
+            <div class="row">
+                <div class="copyright">
+                    <a href="https://www.watermenuscr.com"> &copy; Watermenus All Rights Reserved</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+</footer>
+
+</html>
+
+
