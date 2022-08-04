@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The Wanderlust Costa Rica</title>
+  <title>Alsama Tours</title>
 
   <!-- Bootstrap -->
   <link rel="shortcut icon" href="img/Iconos/favicon.png">
@@ -13,188 +13,321 @@
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/jquery.bxslider.css">
+  <link href="css/overwrite.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/normalize.css" />
   <link rel="stylesheet" type="text/css" href="css/demo.css" />
   <link rel="stylesheet" type="text/css" href="css/set1.css" />
-  <link href="css/overwrite.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/Chat.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link href="css/layout.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   
 </head>
 
 <body>
-  <div id="Ingles" class="Ingles">
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
-  					<span class="sr-only">Toggle navigation</span>
-  					<span class="icon-bar"></span>
-  					<span class="icon-bar"></span>
-  					<span class="icon-bar"></span>
-  				</button>
-          <a class="navbar-brand" href="index.html"><span>The Wanderlust CR</span></a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <div class="menu">
-            <ul class="nav nav-tabs" role="tablist">
-              <li role="presentation" class="active"><a href="index.html">Home</a></li>
-              <li role="presentation"><a href="services.html">Services</a></li>
-              <li role="presentation"><a href="contact.html">Contact</a></li>
-            </ul>
-          </div>
-        </div>
+  <section class="navigation">
+    <div class="nav-container">
+      <div class="brand">
+        <a href="index.html">Alsama Tours</a>
       </div>
-    </nav>
+      <nav class="navhid">
+        <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+        <ul class="nav-list">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="#!">Services</a>
+            <ul class="nav-dropdown">
+              <li>
+                <a href="services.html#Transport">Transport</a>
+              </li>
+              <li>
+                <a href="services.html#SanJose">Tours San Jose</a>
+              </li>
+              <li>
+                <a href="Jaco%20One%20Day%20Tours.pdf">Tours Jaco</a>
+              </li>
+              <li>
+                <a href="services.html#RentaCar">Renta Car</a>
+              </li>
+              <li>
+                <a href="services.html#Packages">Tourist packages</a>
+              </li>
+            </ul>
+          </li>
+          
+          <li>
+            <a href="#!">language</a>
+            <ul class="nav-dropdown">
+              <li>
+                <a href="Español/Inicio.html">Spanish</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
 
 
 
          
 
-    <section id="hero1" class="hero1">
-  <div class="inner">
-    <div class="copy">
-    <input type="text" name="name" class="form-control home" id="name" placeholder="Your Reservation ID" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-    <button class="btn btnBuscar " onclick="BuscarCoti()">Buscar</button>
-    </div>
-  </div>
-</section>
-
-
-
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-          <div class="text-center">
-            <h2>Discover Costa Rica</h2>
-            <p>Discover the best of our contry, coffee, volcanos, beaches, animals and more</p>
-          </div>
-          <hr>
-        </div>
+  <section id="hero1" class="hero1">
+    <div class="inner">
+      <div class="copy">
+        <input type="text" name="name" class="form-control home" id="name" placeholder="ID" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+        <button class="btn btnBuscar" onclick="BuscarCoti()">Search</button>
       </div>
     </div>
+  </section>
 
-    <div class="container">
-      <div class="row">
-        <div class="box">
-          <div class="col-md-4">
-            <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.4s">
-              <h4>Experience</h4>
-              <div class="icon">
-                <i class="fa fa-heart-o fa-3x"></i>
-              </div>
-              <p>Wanderlust brings you the best experience on your trip</p>
-              <div class="ficon">
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.0s">
-              <h4>Easy access</h4>
-              <div class="icon">
-                <i class="fa fa-desktop fa-3x"></i>
-              </div>
-              <p>Check your itinerary online, see our destinations and enjoy</p>
-              <div class="ficon">
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.6s">
-              <h4>Always on time</h4>
-              <div class="icon">
-                <i class="fa fa-location-arrow fa-3x"></i>
-              </div>
-              <p>Do you only have one day? We will make sure you take advantage of every minute</p>
-              <div class="ficon">
-              </div>
-            </div>
-
-          </div>
-
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="text-center">
+          <h2>Discover Costa Rica</h2>
+          <p>Discover the best of our contry, coffee, volcanos, beaches, animals and more</p>
         </div>
+        <hr>
       </div>
     </div>
+  </div>
 
-    <section id="hero2" class="hero2">
-  <div class="inner">
-    <div class="copy">
-       <div class="col-md-3">
-           <img src="img/logo.svg" alt="img25" width="400.2" height="250.25" />
+  <div class="container">
+    <div class="row">
+      <div class="box">
+        <div class="col-md-4">
+          <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.2s">
+            <div class="icon">
+              <i class="fa fa-heart-o fa-3x"></i>
+            </div>
+            <h4>Experience</h4>
+            <p>Wanderlust brings you the best experience on your trip</p>
+            <div class="ficon">
+            </div>
+          </div>
         </div>
-              <h2>About us</h2>
-              
-              <p>At Wanderlust we believe in providing more than a transportation service, providing a
-                experience, so for us all our clients are VIPs. <br> Our
-                drivers know the main tourist and social points of
-                our country and they are always ready to evacuate any doubt or curiosity
-                that you, as our client could have, as well as pleasing you with the necessary stops
-                to satisfy your needs, either just go
-                to the bathroom, buy something, or take pictures. <br>
-              </p>
+
+        <div class="col-md-4">
+          <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.8s">
+            
+            <div class="icon">
+              <i class="fa fa-desktop fa-3x"></i>
+            </div>
+            <h4>Easy access</h4>
+            <p>Check your itinerary online, see our destinations and enjoy</p>
+            <div class="ficon">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.4s">
+            
+            <div class="icon">
+              <i class="fa fa-location-arrow fa-3x"></i>
+            </div>
+            <h4>Always on time</h4>
+            <p>Do you only have one day? We will make sure you take advantage of every minute</p>
+            <div class="ficon">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
     </div>
   </div>
-</section>
+
+   
+
+    
 
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-md-offset-3">
           <div class="text-center">
             <h2>Most popular</h2>
-              <p>
+            <div id="TextInfo"><p>
                 <br>4% Value Added Taxes (VAT), must be summed up to all rates <br> From July 2021 to July 2022<br> 
-                <strong>Click the name to see more information.</strong> 
             </p>
+            </div>
+          </div>
+          <hr>
+        </div>
+        
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="text-center">
+            <h2>From San Jose</h2>
+          </div>
+          <hr>
+        </div>
+        
+      </div>
+    </div>
+
+    <ul class="cards">
+      <li class="cards__item">
+        <div class="card">
+          <div class="card__image card__image--flowers"></div>
+          <div class="card__content">
+            <div class="card__title">6 in 1</div>
+            <p class="card__text">Combine six popular rain forest activities into a single day jam-packed with adventure on this tour to Braulio Carrillo National Park from San Jose. Fly down ziplines over the rain forest canopy,
+              visit a terrarium and butterfly garden, walk along nature trails, and more, all with hassle-free round-trip transportation from your San Jose hotel and a typical Costa Rican lunch to keep you going.
+
+            </p>
+            <button onclick="SeisEnUno()" class="btn btn--block card__btn" >More info</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards__item">
+        <div class="card">
+          <div class="card__image card__image--river"></div>
+          <div class="card__content">
+            <div class="card__title">Vip City Bus</div>
+            <p class="card__text">Vip City Bus has the best city tour in Costa Rica at your disposal. Our unique sightseeing double decker bus will take you to downtown San Jose from your hotel to witness the city’s main historical
+               landmarks for an immersive and panoramic cultural experience and a better understanding of Costa Rica’s evolution.</p>
+            <button onclick="Vip()" class="btn btn--block card__btn">More info</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards__item">
+        <div class="card">
+          <div class="card__image card__image--fence"></div>
+          <div class="card__content">
+            <div class="card__title">Combo Tour</div>
+            <p class="card__text">Enjoy the 3 Costa Rican wonders, the best coffee tour, the splendid Poas volcano and visit the beauty of our characteristic flora and fauna.  </p>
+            <button onclick="Combo()" class="btn btn--block card__btn">More info</button>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="text-center">
+            <h2>From Jaco</h2>
           </div>
           <hr>
         </div>
       </div>
-      <div class="content">
-        <div class="grid">
-         
-             <figure class="effect-zoe" onclick="">
-            <img src="img/6-in-1/6 in 1.jpg" alt="img25" />
-            <a href="https://www.thewanderlustcr.com/services.html#6-in-1"><figcaption>
-              <h2> <a href="https://www.thewanderlustcr.com/services.html#6-in-1"><span>6 in 1</span></a> </h2>
-              <p class="icon-links">$139 pp</p>
-            </figcaption></a>
-          </figure>
-           <figure class="effect-zoe">
-            <img src="img/city bus.jpg" alt="img26" />
-            <a href="https://www.thewanderlustcr.com/services.html#VIP"><figcaption>
-              <h2><a href="https://www.thewanderlustcr.com/services.html#VIP"><span>Vip City Bus</span></a></h2>
-              <p class="icon-links">$69 pp</p>
-         
-            </figcaption></a>
-          </figure>
-        </div>
-      </div>
-      <div class="content">
-        <div class="grid">
-         
-             <figure class="effect-zoe">
-            <img src="img/coffe tour.jpg" alt="img27" />
-            <a href="https://www.thewanderlustcr.com/services.html#coffee"><figcaption>
-              <h2><a href="https://www.thewanderlustcr.com/services.html#coffee"><span>Coffee tour</span></a></h2>
-              <p class="icon-links">$59 pp</p>
-            </figcaption>
-          </figure><a/>
-
-            <figure class="effect-zoe">
-            <img src="img/combo.jpg" alt="img30" />
-            <a href="https://www.thewanderlustcr.com/services.html#Combo"><figcaption>
-              <h2> <a href="https://www.thewanderlustcr.com/services.html#Combo"><span>Combo Tour</span></a></h2>
-              <p class="icon-links">$149 pp</p>
-            </figcaption></a>
-          </figure>         
-        </div>
-      </div>
-        <div class="text-center">
-          <a class="btn btn-primary btn-lg" href="services.html">more</a>
-        </div>
     </div>
+    <ul class="cards">
+      <li class="cards__item">
+        <div class="card">
+          <div class="card__image card__image--Jaco"></div>
+          <div class="card__content">
+            <div class="card__title">Tortuga Island</div>
+            <p class="card__text"> Discover the magic of a dream island, Isla Tortuga (Tortuga Island). It is located in the Gulf of Nicoya,
+              Costa Rica, 12 nautical miles from Puntarenas
+            </p>
+            <button onclick="TortugaJaco()" class="btn btn--block card__btn">More info</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards__item">
+        <div class="card">
+          <div class="card__image card__image--fiveinone"></div>
+          <div class="card__content">
+            <div class="card__title">Extreme adrenaline</div>
+            <p class="card__text">Start this great trip by flying over the treetops in our aerial tram tour while you learn all about the nature
+              that surrounds you, then soar above the clouds and fly over the treetops and immerse yourself in nature and it’s surroundings experiencing
+              first hand why Costa Rica is the best Adventure and Eco-tourism destination in the world.
+            </p>
+            <button onclick="CincoEnUno()" class="btn btn--block card__btn">More info</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards__item">
+        <div class="card">
+          <div class="card__image card__image--tocori"></div>
+          <div class="card__content">
+            <div class="card__title">Mountain & Waterfall</div>
+            <p class="card__text">Let Don Gilberto and his family show you the real Costa Rica – on horseback! Once they pick you up the adventure in history and nature begins,
+              starting with the Quepos Indians and leads you through the changes of Manuel Antonio today </p>
+            <button onclick="Tocori()" class="btn btn--block card__btn">more info</button>
+          </div>
+        </div>
+      </li>
+    </ul>
+      
+     
+
+<section id="hero2" class="hero2">
+  <div class="container">
+    <div class="row">
+      <div class="Centro">
+        <div class="keep">
+          <div class="Cuadrado">
+            
+              
+                <h2>Subscribe</h2>
+                  
+                  <p>keep informed and get  5% discount</p>
+            <form action="https://formsubmit.co/info@thewanderlustcr.com" method="POST">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_next" value="https://www.thewanderlustcr.com/#Exito">
+
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" required/>
+                <div class="validation"></div>
+              </div>
+              <input type="hidden" name="_subject" value="Suscripcion 5%">
+              <input type="hidden" name="_autoresponse" value="thanks for subscribing, now you have a 5% discount">
+              <div class="text-center" id="confirmacion"><button type="submit" class="btn btn-primary btn-lg">Send</button></div>
+            </form>
+              
+            
+          </div>      
+        </div>
+      </div>
+  </div>
+</div>
+</section>
+
+<!-- Messenger Plugin de chat Code -->
+<div id="fb-root"></div>
+
+<!-- Your Plugin de chat code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "1546073212118760");
+  chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v12.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+     
+
+
     <div class="inner-footer">
         <div class="container">
           <div class="row">
@@ -203,17 +336,27 @@
               <a href="mailto:info@thewanderlustcr.com">
                 <p><i class="fa fa-envelope"></i> info@thewanderlustcr.com</p>
               </a>
-              <p><i class="fa fa-phone"></i> +506 6167 2539</p>
+              <a href="https://www.facebook.com/qr/4694313090628074">
+                <p><i class="fa fa-facebook"></i> Wanderlust Costa Rica</p>
+              </a>
+              <a href="https://instagram.com/wanderlust_costa_rica?utm_medium=copy_link">
+                <p><i class="fa fa-instagram"></i> wanderlust_costa_rica</p>
+              </a>
+              <a href="https://wa.me/50661672539">
+                <p><i class="fa fa-phone"></i> +506 6167 2539</p>
+              </a>
             </div>
           </div>
         </div>
     </div>
-</div>
+    
+
 
   
  
-
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="js/script.js"></script>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
   <script src="js/jquery-2.1.1.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
@@ -222,11 +365,11 @@
   <script src="js/jquery.isotope.min.js"></script>
   <script src="js/jquery.bxslider.min.js"></script>
   <script type="text/javascript" src="js/fliplightbox.min.js"></script>
+
   <script src="js/functions.js"></script>
   <script src="js/Bs.js"></script>
-  <script type="text/javascript">
-    $('.portfolio').flipLightBox()
-  </script>
+  <script src="js/IndexOpera.js"></script>
+ 
 </body>
  <footer>
      <div class="last-div">
@@ -237,12 +380,167 @@
           </div>
         </div>
       </div>
-     
-
-      <a href="https://wa.me/message/VGJ6IV2WRVFIB1" class="scrollup"> <img src="img/whatsapp.png"> </a>
-
-
     </div>
   </footer>
 
 </html>
+
+<!--
+  <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <div class="text-center">
+              <h2>From San Jose</h2>  
+            </div>
+            <hr>
+          </div>
+          <div class="grid">
+            <figure class="effect-zoe click">
+              <a href="https://www.thewanderlustcr.com/services.html#6-in-1">
+              <img loading="lazy" src="img/6-in-1/6 in 1.jpg" alt="img25" /> 
+                <figcaption>
+                  <h2>
+                   <a href="https://www.thewanderlustcr.com/services.html#6-in-1">
+                    <span>6 in 1</span>
+                   </a> 
+                  </h2>
+                  
+                </figcaption>
+               </a>
+            </figure>
+
+            <figure class="effect-zoe click">
+              <a href="https://www.thewanderlustcr.com/services.html#VIP">
+                <img loading="lazy" src="img/city bus.jpg" alt="img26" />
+                  <figcaption>
+                    <h2>
+                      <a href="https://www.thewanderlustcr.com/services.html#VIP">
+                        <span>Vip City Bus</span>
+                      </a>
+                    </h2>
+                    
+                  </figcaption>
+              </a>
+            </figure>        
+          </div> 
+            
+          <div class="grid"> 
+            <figure class="effect-zoe click">
+              <a href="https://www.thewanderlustcr.com/services.html#coffee">
+              <img loading="lazy" src="img/coffe tour.jpg" alt="img27" />
+                  <figcaption>
+                    <h2>
+                      <a href="https://www.thewanderlustcr.com/services.html#coffee">
+                        <span>Coffee tour</span>
+                      </a>
+                    </h2>
+                    
+                  </figcaption>
+                </a>  
+            </figure>
+
+            <figure class="effect-zoe">
+              <a href="https://www.thewanderlustcr.com/services.html#Combo">
+              <img loading="lazy" src="img/combo.jpg" alt="img30" /> 
+                  <figcaption>
+                    <h2> 
+                      <a href="https://www.thewanderlustcr.com/services.html#Combo">
+                        <span>Combo Tour</span>
+                      </a>
+                    </h2>
+                    
+                  </figcaption>
+                </a>
+            </figure>    
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="Centro">
+            <button type="submit" class=" btn btn-primary btn-lg more">More tours from San Jose</button>
+          </div>
+        </div>
+      </div> 
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <div class="text-center">
+              <h2>From Jaco</h2>  
+            </div>
+            <hr>
+          </div>
+          <div class="grid"> 
+            <figure class="effect-zoe click">
+              <a href="https://www.thewanderlustcr.com/services.html#coffee">
+              <img loading="lazy" src="img/coffe tour.jpg" alt="img27" />
+                  <figcaption>
+                    <h2>
+                      <a href="https://www.thewanderlustcr.com/services.html#coffee">
+                        <span>Coffee tour</span>
+                      </a>
+                    </h2>
+                   
+                  </figcaption>
+                </a>  
+            </figure>
+
+            <figure class="effect-zoe">
+              <a href="https://www.thewanderlustcr.com/services.html#Combo">
+              <img loading="lazy" src="img/combo.jpg" alt="img30" /> 
+                  <figcaption>
+                    <h2> 
+                      <a href="https://www.thewanderlustcr.com/services.html#Combo">
+                        <span>Combo Tour</span>
+                      </a>
+                    </h2>
+                   
+                  </figcaption>
+                </a>
+            </figure>    
+                 
+          </div> 
+          <div class="grid"> 
+            <figure class="effect-zoe click">
+              <a href="https://www.thewanderlustcr.com/services.html#coffee">
+              <img loading="lazy" src="img/coffe tour.jpg" alt="img27" />
+                  <figcaption>
+                    <h2>
+                      <a href="https://www.thewanderlustcr.com/services.html#coffee">
+                        <span>Coffee tour</span>
+                      </a>
+                    </h2>
+                    
+                  </figcaption>
+                </a>  
+            </figure>
+
+            <figure class="effect-zoe">
+              <a href="https://www.thewanderlustcr.com/services.html#Combo">
+              <img loading="lazy"  src="img/combo.jpg" alt="img30" /> 
+                  <figcaption>
+                    <h2> 
+                      <a href="https://www.thewanderlustcr.com/services.html#Combo">
+                        <span>Combo Tour</span>
+                      </a>
+                    </h2>
+                   
+                  </figcaption>
+                </a>
+            </figure>    
+            
+          </div> 
+          
+        </div>
+
+      </div> 
+      <div class="container">
+        <div class="row">
+          <div class="Centro">
+            <button type="submit" class=" btn btn-primary btn-lg more">More tours from Jaco</button>
+          </div>
+        </div>
+      </div> 
+-->
