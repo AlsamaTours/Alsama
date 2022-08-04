@@ -2164,8 +2164,7 @@ function inicio(){ //Se guarda tdo menos los tours
   trans.innerHTML = ``;
   taskForm.style.display = "block";
   taskForm.innerHTML =`               
-  <div class="row">
-    <div class="col-md-6 col-md-offset-3">
+
       <div class="text-center">
       <h2>Excursiones de un día y medio</h2>
 
@@ -2173,9 +2172,7 @@ function inicio(){ //Se guarda tdo menos los tours
             <br>4% de Impuesto al Valor Agregado (IVA), debe sumarse a todas las tarifas <br> De julio de 2021 a julio de 2022<br><strong>Haga clic en el nombre para ver más información<strong>.
         </p>
       </div>
-      <hr>
-    </div>
-  </div>
+
 
   <div class="text-center" >
       <a  class="btn btn-primary btn-lg more" onclick="Jaco()">Jaco</a>
