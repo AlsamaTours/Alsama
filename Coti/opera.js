@@ -15,18 +15,62 @@ var exite = 1;
 var ID = document.getElementById('task-id').value;
 
 window.addEventListener('DOMContentLoaded',(e)=>{
-   
+   document.getElementById('task-id').style.display = 'none';
     var name = window.location.href;
-     //btn.style.display = 'none';
-    //var split = name.slice(47);
-    console.log(name);
-    var split = name..split('#');
-   
-    document.getElementById('task-id').value = split[1];
+    name = nombre.split('?')[1];
+
+    document.getElementById('task-id').value = name;
     btn.style.display = "none";
-     BuscarCliente();
+    document.getElementById('qr').style.display = 'none';
+    BuscarCliente();
+   
 
 })
+
+const options = {
+  margin: 0.5,
+  filename: 'invoice.pdf',
+  image: { 
+    type: 'jpeg', 
+    quality: 500
+  },
+  html2canvas: { 
+    scale: 1 
+  },
+  jsPDF: { 
+    unit: 'in', 
+    format: 'letter', 
+    orientation: 'portrait' 
+  }
+}
+function Dowload(){
+
+  const element = document.getElementById('Fact');
+  html2pdf().from(element).set(options).save();
+}
+
+
+
+function printDiv(divName) {
+ var printContents = document.getElementById(divName).innerHTML;
+ var originalContents = document.body.innerHTML;
+
+ document.body.innerHTML = printContents;
+
+ window.print();
+
+ document.body.innerHTML = originalContents;
+}
+
+function generateQr(){
+    document.getElementById('qr').style.display = 'block';
+    let size = "1000x1000";
+    let data = "'https://www.thewanderlustcr.com/Coti/index.html?"+document.getElementById('task-id').value ;
+    let baseURL = "https://api.qrserver.com/v1/create-qr-code/";
+    let url = `${baseURL}?data=${data}&size=${size}`;
+
+    document.getElementById('qr').src = url;
+}
 
 const onGetTask = (callback) => db.collection(" Tours/collection/"+ID).onSnapshot(callback); //En vivo
 const onGetTask2 = (callback) => db.collection("Clientes").onSnapshot(callback); //En vivo
@@ -50,7 +94,7 @@ async function  BuscarCliente() {
     console.log("Click en cliente");
     if(!document.getElementById('task-id').value){
         alert("Texto vacio");
-    window.location.href = 'https://www.thewanderlustcr.com/index.html';
+    window.location.href = 'https://www.alsamatourscr.com/';
     }
     else {
             superior.innerHTML=`<th class="service">ID</th>
@@ -65,33 +109,48 @@ async function  BuscarCliente() {
  
             await onGetTask2();
             project.innerHTML =``;
-            onGetTask2 ((querySnapshot)=>{
+            await Busqueda();  
+                     
+ }
+}
+
+
+async function Busqueda(){
+    onGetTask2 ((querySnapshot)=>{
                 querySnapshot.forEach(doc=>{
-                if(doc.data().Tours == ID){
-                    project.innerHTML = `<div><span>Servicio</span> Tours and shuttles</div>
-                    <div><span>CLIENT</span> ${doc.data().Name}</div>
-                    <div><span>Niños</span> ${doc.data().Nino}</div>
-                    <div><span>Adultos</span> ${doc.data().Adulto}</div>`;
-                    if(doc.data().estado == true){
-                         project.innerHTML += `<div><span>Estado</span>Aceptado</div>`;
-                    }else{
-                         project.innerHTML += `<div><span>Estado</span>Cancelado</div>`;
+                    if(doc.data().Tours == ID){
+                        project.innerHTML = `<div><span>Servicio</span> Tours and shuttles</div>
+                        <div><span>CLIENT</span> ${doc.data().Name}</div>
+                        <div><span>Niños</span> ${doc.data().Nino}</div>
+                        <div><span>Adultos</span> ${doc.data().Adulto}</div>`;
+                        if(doc.data().estado == true){
+                             project.innerHTML += `<div><span>Estado</span>Aceptado</div>`;
+                        }else{
+                             project.innerHTML += `<div><span>Estado</span>Cancelado</div>`;
+                        }
+                        Adulto = doc.data().Adulto;
+                        Ninos = doc.data().Nino;
+                        IVA = doc.data().iva;
+                        
+                        
                     }
-                    Adulto = doc.data().Adulto;
-                    Ninos = doc.data().Nino;
-                    IVA = doc.data().iva;
-                    exite = 0;
-                }
-
-
                 })
-               
+                   
             })
-             await onGetTask();
-            if(exite == 1){
-               
-                
-                onGetTask((querySnapshot) =>{
+    Aceptado();
+}
+
+async function Aceptado(){
+
+    generateQr();
+    try{
+         await onGetTask();
+    }catch(error){
+        console.log(error);
+    window.location.href = 'https://www.thewanderlustcr.com/index.html';
+    }
+   
+     onGetTask((querySnapshot) =>{
                 querySnapshot.forEach(doc => {
                   Servicios.innerHTML += ` <td class="service">${doc.data().ID}</td>
                         <td class="desc">${doc.data().Description}</td>
@@ -125,12 +184,6 @@ async function  BuscarCliente() {
                       Precio = 0;
                     })
 
-            }else{
-                 alert("No existe el ID ingresado");
-                window.location.href = 'https://www.thewanderlustcr.com/index.html';
-   
-            }
- }
 }
 
 

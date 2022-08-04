@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <link rel="shortcut icon" href="../img/logo.jpg">
     <title>Facturas</title>
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  
     <link rel="stylesheet" href="style.css" media="all" />
   </head>
   <body>
@@ -12,15 +14,21 @@
     <div id="task-form">
       <form>
         <input type="text" id = "task-id" class="form-control" placeholder="id" /><br>
+        <button type="button" class="btn btn-large btn-block btn-default" onclick="BuscarCliente()">button</button>
       </form>
       
     </div>
 
-    <div class="Fact">
+    
+    
+    <div class="Fact" id="Fact">
     <header class="clearfix">
        <div id="logo" class="logo">
-        <img src="logo.png">
+        <img loading="lazy" class="qr" id="qr" src="codigo.png" >
+        <img loading="lazy" class="pr"  src="logo.png">
       </div>
+
+      
       <h1>Factura</h1>
       <div id="company" class="clearfix">
         <div>Wanderlust</div>
@@ -43,11 +51,36 @@
         <tbody id="Servicios">
             
         </tbody>
+        <tfooter>
+          <br><br>
+          <div class="Politicas">
+           <h3>Politicas</h3>
+          
+            <p>Cancelaciones:<br> 
+            Todas las cancelaciones deben enviarse por escrito y deben recibir confirmación por escrito de nuestra empresa para que se considere vigente.</p> 
+            <p>No shows:<br> Si no se presenta se cobrará el valor total del 100% de la reserva.</p> 
+            <p>Cambios<br>  Cuando se realizan cambios en el último minuto (después de que un viaje ha sido confirmado y garantizado), verifique la disponibilidad.</p>
+          </div>
+          <div class="Politics">
+           <h3>Politics</h3>
+          
+            <p>Cancellations:<br> 
+            All cancellations must be sent in writing and must receive confirmation in writing from our company for it to be considered as in effect.</p> 
+            <p>No shows:<br> are charged the full 100% value of the reservation.</p> 
+            <p>Change Fee:<br> When changes are made at the last minute (after a trip has been confirmed and guaranteed), check for availability.</p>
+          </div>
+          
+          
+      
+          </tfooter>
       </table>
       
     </main>
+    
   </div>
+  <button  class="btn-download" onclick="Dowload()">Download PDF  </button>
 
+ 
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
@@ -71,31 +104,16 @@
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
 </script>
+
+<script src="jspdf.debug.js"></script>
+<script src="html2canvas.min.js"></script>
+<script src="html2pdf.min.js"></script>
+
+
    <script type="text/javascript" src="opera.js"></script>
    
   </body>
-   <footer>
-    <br><br>
-    <div class="Politicas">
-     <h3>Politicas</h3>
-    
-      <p>Cancelaciones:<br> 
-      Todas las cancelaciones deben enviarse por escrito y deben recibir confirmación por escrito de nuestra empresa para que se considere vigente.</p> 
-      <p>No shows:<br> Si no se presenta se cobrará el valor total del 100% de la reserva.</p> 
-      <p>Cambios<br>  Cuando se realizan cambios en el último minuto (después de que un viaje ha sido confirmado y garantizado), verifique la disponibilidad.</p>
-    </div>
-    <div class="Politics">
-     <h3>Politics</h3>
-    
-      <p>Cancellations:<br> 
-      All cancellations must be sent in writing and must receive confirmation in writing from our company for it to be considered as in effect.</p> 
-      <p>No shows:<br> are charged the full 100% value of the reservation.</p> 
-      <p>Change Fee:<br> When changes are made at the last minute (after a trip has been confirmed and guaranteed), check for availability.</p>
-    </div>
-    
-    
-
-    </footer>
+  
 </html>
 
 
