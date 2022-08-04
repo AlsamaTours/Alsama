@@ -299,8 +299,41 @@ overflow: hidden;
   border: 1px solid #9ea7af;
   border-radius: 0;
 }
+.btn2 {
+	color:#333;
+  display: inline-block;
+  padding: 10px ;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid #9ea7af;
+  border-radius: 0;
+  background-color: #60ac9e;
+
+}
 
 .btn:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #60ac9e;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.btn2:hover {
   color: #fff;
   text-decoration: none;
   background-color: #60ac9e;
