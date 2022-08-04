@@ -2381,7 +2381,7 @@ function inicio(){ //Se guarda tdo menos los tours
 
 
 
- <div class="text-center" ><a onclick="abrir()" class="btn btn-primary btn-lg more" onclick="">More</a></div>
+ <div class="text-center" ><a onclick="abrir()" class="btn btn-primary btn-lg more" onclick="">mas</a></div>
 `;
 
 
