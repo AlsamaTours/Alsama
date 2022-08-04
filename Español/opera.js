@@ -3,6 +3,11 @@ const trans = document.getElementById('trans');
 
 const select = document.getElementById('Serch');
 
+let btnAbrirPopup = document.getElementById('btn-abrir-popup'),
+overlay = document.getElementById('overlay'),
+popup = document.getElementById('popup'),
+btnCerrarpopup = document.getElementById('btn-cerrar-popup');
+
 function Pack(){
     let today = new Date();
     let dd = today.getDate();
@@ -478,24 +483,24 @@ function canopy(){
       <div class="col-md-8 ">
         <div class="portfolios">
           <div class="text-center">
-            <h2> Rainforest Canopy</h2>
-            </div>
-            <p class=izquierda>
-              Our park offers Costa Rica´s safest zip-line and effortlessly traverse the canopy and its hanging gardens under the supervision of our experienced Guias.
-            </p>
-            <p class=izquierda>
-             The exhilarating canopy tour takes guests flying across the magnificent Moliente River several times.
-              </p>
-            <p class=izquierda>
-              Walking trails lead visitors deep into the rainforest floor. Passengers will be strapped in safe top-quality gear specifically designed for this canopy tour.
-            </p>
-            <p class="izquierda">
-            <strong>Precio:</strong> $96 pp
-            </p>
+          <h2>Canopy en un Bosque lluvioso</h2>
+          </div>
+          <p clase=izquierda>
+          Nuestro parque ofrece la tirolesa más segura de Costa Rica y atraviesa sin esfuerzo el dosel y sus jardines colgantes bajo la supervisión de nuestras guías experimentadas.
+        </p>
+        <p clase=izquierda>
+         El emocionante tour de canopy lleva a los visitantes a volar varias veces a través del magnífico río Moliente.
+          </p>
+        <p clase=izquierda>
+          Los senderos para caminar llevan a los visitantes a las profundidades del suelo de la selva tropical. Los pasajeros estarán atados con equipo seguro de alta calidad diseñado específicamente para este tour de canopy.
+        </p>
+        <p class="izquierda">
+        <strong>Precio:</strong> $96 por persona
+        </p>
 
-            <p class=izquierda>
-            <strong>What to bring?</strong> Comfortable shoes, long pants, y camera.
-            </p>
+          <p clase=izquierda>
+          <strong>¿Qué llevar?</strong> Zapatos cómodos, pantalón largo, cámara.
+          </p>
           
           <hr>
                <div class="text-center">
@@ -567,26 +572,26 @@ function combo(){
       <div class="col-md-8 ">
         <div class="portfolios">
           <div class="text-center">
-            <h2> Poás Volcano, Doka Estate & La Paz Waterfalls</h2>
-            </div>
-            <p class=izquierda>
-              As we ascend towards the volcano we will stop for a brief explanation of our coffee. There is a noticeable change in temperature and vegetation, preparing us for the pleasure of the exuberant cloud forest of Poas Volcano.
+          <h2> Volcán Poás, Hacienda Doka y Cascadas La Paz</h2>
+          </div>
+          <p clase=izquierda>
+            A medida que ascendemos hacia el volcán, nos detendremos para una breve explicación de nuestro café. Hay un cambio notable en la temperatura y la vegetación, preparándonos para el placer de la exuberante selva nublada del Volcán Poás.
+          </p>
+          <p clase=izquierda>
+            Caminaremos por un sendero hasta la hermosa Laguna de Botos. Continuaremos nuestro viaje hacia el Caribe, deteniéndonos para descubrir los Jardines de las Cataratas de La Paz.
             </p>
-            <p class=izquierda>
-              We will hike on a trail to the beautiful Botos Lagoon. We will continue our trip towards the Caribbean, stopping to discover La Paz Waterfall Gardens.
-              </p>
-            <p class=izquierda>
-              In the natural park where we will walk through many spectacular trails which will take us to the White Magic Waterfall, the most spectacular one in the area.
+          <p clase=izquierda>
+            En el parque natural donde caminaremos por muchos senderos espectaculares que nos llevarán a la Cascada de Magia Blanca, la más espectacular de la zona.
 
-            </p>
-             </p>
-             <p class="izquierda">
-            <strong>Precio:</strong> $149 pp
-            </p>
+          </p>
+           </p>
+           <p class="izquierda">
+          <strong>Precio:</strong> $149 por persona
+          </p>
 
-            <p class=izquierda>
-            <strong>What to bring?</strong>  Comfortable shoes, long pants, y camera.
-            </p>
+          <p clase=izquierda>
+          <strong>¿Qué llevar?</strong> Zapatos cómodos, pantalón largo, cámara.
+          </p>
           
           <hr>
                <div class="text-center">
@@ -666,23 +671,23 @@ function pacuare(){
       <div class="col-md-8 ">
         <div class="portfolios">
           <div class="text-center">
-            <h2>Water Rafting Pacuare River</h2>
-            </div>
-            <p class=izquierda>
-              In this excursion you have the opportunity to be in one of the most popular rivers for this sport, Pacuare River. During the trip you will enjoy incomparable landscapes along the river.
+          <h2>Rafting Río Pacuare</h2>
+          </div>
+          <p clase=izquierda>
+            En esta excursión tienes la oportunidad de estar en uno de los ríos más populares para este deporte, el río Pacuare. Durante el viaje disfrutarás de incomparables paisajes a lo largo del río.
+          </p>
+          <p clase=izquierda>
+            El río Pacuare es uno de los cinco ríos más importantes del mundo por sus paisajes y rápidos rápidos. En este río tropical el viaje es pura magia.
             </p>
-            <p class=izquierda>
-              The Pacuare River is one of the five most important rivers of the world by its landscapes and fast rapids. In this tropical river the trip is pure magic.       
-              </p>
-            <p class=izquierda>
-              Located in the Caribbean of Costa Rica, the Pacuare River confines the Mountain of Talamanca, the home to the native Indians of Cabecar and an immense variety of flora and fauna. Once in the river you will go 16 miles on the Heart of the rainforest, observing cascades, birds and the diversity of Flora.
-            </p>
-            <p class="izquierda">
-            <strong>Precio:</strong> $99 pp
-            </p>
-            <p class=izquierda>
-            <strong>What to bring?</strong>  Extra clothes, repellent, comfortable shoes, towel, sweater.
-            </p>
+          <p clase=izquierda>
+            Ubicado en el Caribe de Costa Rica, el río Pacuare confina la Montaña de Talamanca, hogar de los indios nativos de Cabécar y una inmensa variedad de flora y fauna. Una vez en el río, recorrerá 16 millas en el corazón de la selva tropical, observando cascadas, aves y la diversidad de la flora.
+          </p>
+          <p class="izquierda">
+          <strong>Precio:</strong> $99 por persona
+          </p>
+          <p clase=izquierda>
+          <strong>¿Qué llevar?</strong> Ropa extra, repelente, zapatos cómodos, toalla, suéter.
+          </p>
           
           <hr>
                <div class="text-center">
@@ -752,23 +757,23 @@ function at(){
       <div class="col-md-8 ">
         <div class="portfolios">
           <div class="text-center">
-            <h2>Arenal Volcano & hots springs</h2>
-            </div>
-            <p class=izquierda>
-              It is no coincidence that the Arenal Volcano & Hot Springs is one of the most popular tours in the country. Visiting one of the most famous areas in Costa Rica and relaxing in the hot springs is an unforgettable experience! 
+          <h2>Volcán Arenal y aguas termales</h2>
+          </div>
+          <p clase=izquierda>
+            No es casualidad que el Volcán Arenal y Aguas Termales sea uno de los tours más populares del país. ¡Visitar una de las zonas más famosas de Costa Rica y relajarse en las aguas termales es una experiencia inolvidable!
+          </p>
+          <p clase=izquierda>
+            Camino a Arenal, pasando por el pintoresco pueblo de La Fortuna, en un día despejado, tendrás la oportunidad de admirar el majestuoso coloso.
             </p>
-            <p class=izquierda>
-              On the way to Arenal, passing through the picturesque town of La Fortuna, on a clear day, you will have the opportunity to admire the majestic colossus.       
-              </p>
-            <p class=izquierda>
-              At the hot springs near the volcano, relax in the natural heating jacuzzis, full of healthy minerals, or enjoy the additional services offered by the award-winning Tabacon Grand Spa & Thermal Resort or Baldi Hot Springs.
-            </p>
-            <p class="izquierda">
-            <strong>Precio:</strong> $162 pp
-            </p>
-            <p class=izquierda>
-            <strong>What to bring?</strong>    Hat, sunscreen, swimming suit, towel and camera
-            </p>
+          <p clase=izquierda>
+            En las aguas termales cercanas al volcán, relájese en los jacuzzis con calefacción natural, llenos de minerales saludables, o disfrute de los servicios adicionales que ofrece el galardonado Tabacon Grand Spa & Thermal Resort o Baldi Hot Springs.
+          </p>
+          <p class="izquierda">
+          <strong>Precio:</strong> $162 por persona
+          </p>
+          <p clase=izquierda>
+          <strong>¿Qué llevar?</strong> Sombrero, bloqueador solar, traje de baño, toalla y cámara
+          </p>
             
           
           <hr>
@@ -831,23 +836,23 @@ function aereal(){
       <div class="col-md-8 ">
         <div class="portfolios">
           <div class="text-center">
-            <h2>Rainforest Aerial Tram</h2>
-            </div>
-            <p class=izquierda>
-              This Rain Forest Aerial Tram from San Jose travels between the Grove Forest, and the canopy and its gardens, allowing you to discover plants and animals that usually are hidden in the heights of the forest.
+          <h2>Teleférico de la selva tropical</h2>
+          </div>
+          <p clase=izquierda>
+            Este teleférico del bosque lluvioso de San José viaja entre Grove Forest, el dosel y sus jardines, lo que le permite descubrir plantas y animales que generalmente están escondidos en las alturas del bosque.
+          </p>
+          <p clase=izquierda>
+            Ubicado a solo 50 minutos de San José en la carretera a Limón, el Teleférico RainForest ofrece uno de los parques de ecoturismo e investigación más impresionantes y únicos del mundo. Los visitantes viajan literalmente 90 minutos entre la arboleda, el dosel y sus jardines descubriendo plantas y animales que suelen estar escondidos.
             </p>
-            <p class=izquierda>
-              Found only 50 minutes from San José on the highway to Limon, the RainForest Aerial Tram offers one of the most impressive and unique parks of ecotourism and investigation in the world. Visitors literally travel 90 minutes between the grove forest, the canopy and its gardens discovering plants and animals that are usually hidden.         
-              </p>
-            <p class=izquierda>
-              This little-known world has incredible beauty and extraordinary biological diversity. The “Gondola” (Aerial Tram) Tour is a modified “Ski Lift'' that covers a distance of 2.6 kilometers through the Costa Rica rainforest. The tour lasts approximately 90 minutes. Visitors will see the different levels of a rainforest, specifically the most difficult level to reach until recently and the least scientifically known part of the forest, the canopy (the tree tops). This course is very secure and very quiet allowing visitors to listen to the many different sounds of the rainforest.
-            </p>
-            <p class="izquierda">
-            <strong>Precio:</strong> $107 pp
-            </p>
-             <p class=izquierda>
-            <strong>What to bring?</strong>   Walking shoes, binoculars, raincoat and camera.
-            </p>
+          <p clase=izquierda>
+            Este mundo poco conocido tiene una belleza increíble y una diversidad biológica extraordinaria. El Tour en “Góndola” (Tranvía Aéreo) es un “Remonte” modificado que cubre una distancia de 2.6 kilómetros a través de la selva tropical de Costa Rica. El recorrido dura aproximadamente 90 minutos. Los visitantes verán los diferentes niveles de una selva tropical, específicamente el nivel más difícil de alcanzar hasta hace poco y la parte del bosque menos conocida científicamente, el dosel (las copas de los árboles). Este curso es muy seguro y muy tranquilo, lo que permite a los visitantes escuchar los diferentes sonidos de la selva tropical.
+          </p>
+          <p class="izquierda">
+          <strong>Precio:</strong> $107 por persona
+          </p>
+           <p clase=izquierda>
+          <strong>¿Qué llevar?</strong> Zapatos para caminar, binoculares, impermeable y cámara.
+          </p>
           
           <hr>
                <div class="text-center">
@@ -916,23 +921,23 @@ function tortuguero(){
       <div class="col-md-8 ">
         <div class="portfolios">
           <div class="text-center">
-            <h2>Tortuguero National Park</h2>
-            </div>
-            <p class=izquierda>
-              This is an expedition through the dense jungle of one of the most beautiful and scenic regions of Costa Rica. Sail the exotic channels of Tortuguero National Park, famous for its solitary beaches where the nesting of gigantic green turtles takes place (Jul to Sept.).
+          <h2>Parque Nacional Tortuguero</h2>
+          </div>
+          <p clase=izquierda>
+            Esta es una expedición a través de la densa jungla de una de las regiones más bellas y escénicas de Costa Rica. Navega los exóticos canales del Parque Nacional Tortuguero, famoso por sus solitarias playas donde se lleva a cabo el desove de gigantescas tortugas verdes (julio a septiembre).
+          </p>
+          <p clase=izquierda>
+            Tortuguero es uno de los sitios de anidación más importantes de la Tortuga Verde en el Hemisferio Occidental. Una red navegable de canales y lagunas que te permitirán estar en contacto directo con la gran variedad de flora y fauna del Parque Nacional de Tortuguero
             </p>
-            <p class=izquierda>
-              Tortuguero is one of the most important nesting sites of the Green Turtle in the Western Hemisphere. A navigable network of channels and lagoons that will allow you to be in direct contact with the great variety of flora and fauna across the National Park of Tortuguero            
-              </p>
-            <p class=izquierda>
-               We will leave early and travel through the Braulio Carrillo National Park where we will pass mountains covered by dense forests as well as numerous rivers and waterfalls until we arrive at the Caribbean of Costa Rica. Here, we will cross the banana plantations to board the boat to sail to Tortuguero National Park.
-            </p>
-            <p class="izquierda">
-            <strong>Precio:</strong> $140 pp
-            </p>
-            <p class=izquierda>
-            <strong>What to bring?</strong>   Comfortable shoes, repellent, hat, binoculars, extra clothes and camera
-            </p>
+          <p clase=izquierda>
+             Saldremos temprano y viajaremos a través del Parque Nacional Braulio Carrillo donde pasaremos montañas cubiertas por densos bosques así como numerosos ríos y cascadas hasta llegar al Caribe de Costa Rica. Aquí, cruzaremos las plantaciones de banano para abordar el bote para navegar hacia el Parque Nacional Tortuguero.
+          </p>
+          <p class="izquierda">
+          <strong>Precio:</strong> $140 por persona
+          </p>
+          <p clase=izquierda>
+          <strong>¿Qué llevar?</strong> Zapatos cómodos, repelente, gorra, binoculares, ropa extra y cámara
+          </p>
             
           
           <hr>
@@ -1002,23 +1007,23 @@ function Folk(){
       <div class="col-md-8 ">
         <div class="portfolios">
           <div class="text-center">
-            <h2>Folklore Dinner Show</h2>
-            </div>
-            <p class=izquierda>
-              Home to the Tierra Tipica spectacle. Ram Luna is perched high above the mountains overlooking the Central Valley. From this unique vantage point you can admire the auspicious panoramic views at dusk, and then take in the brilliance of the lights emanating from the capital.
-            </p>
-            <p class=izquierda>
-               In addition, we will be treated to a sampling of Costa Rican Folklore through the various typical dances and marimba music, while we enjoy a delicious dinner buffet with a menu that reflects the typical dishes of the region.
-            </p>
-            <p class=izquierda>
-               During our visit, the local artisans will exhibit their unique and exquisite creations that represent the different regions of the country. The evening culminates with the traditional masquerade extravaganza and a lively fireworks show. Do not miss this unforgettable experience!
-            </p>
-            <p class="izquierda">
-            <strong>Precio:</strong> $70 pp
-            </p> 
-          <p class=izquierda>
-            <strong>What to bring?</strong>    Comfortable shoes, long pants, and camera.
-            </p>
+          <h2>Cena Espectáculo Folclórico</h2>
+          </div>
+          <p clase=izquierda>
+            Hogar del espectáculo Tierra Típica. Ram Luna se alza sobre las montañas que dominan el Valle Central. Desde este punto de vista único, puede admirar las auspiciosas vistas panorámicas al atardecer y luego disfrutar del brillo de las luces que emanan de la capital.
+          </p>
+          <p clase=izquierda>
+             Además, seremos obsequiados con una muestra del folclor costarricense a través de los diversos bailes típicos y música de marimba, mientras disfrutamos de una deliciosa cena buffet con un menú que refleja los platos típicos de la región.
+          </p>
+          <p clase=izquierda>
+             Durante nuestra visita, los artesanos locales exhibirán sus creaciones únicas y exquisitas que representan las diferentes regiones del país. La velada culmina con el tradicional espectáculo de disfraces y un animado espectáculo de fuegos artificiales. ¡No te pierdas esta experiencia inolvidable!
+          </p>
+          <p class="izquierda">
+          <strong>Precio:</strong> $70 por persona
+          </p>
+        <p clase=izquierda>
+          <strong>¿Qué llevar?</strong> Zapatos cómodos, pantalón largo y cámara.
+          </p>
 
           <hr>
                <div class="text-center">
@@ -1087,23 +1092,23 @@ function TortugaIsland(){
       <div class="col-md-8 ">
         <div class="portfolios">
           <div class="text-center">
-            <h2>Tortuga Island Cruise</h2>
-            </div>
-            <p class=izquierda>
-              Board a boat at Puntarenas and enjoy the Gulf of Nicoya, a beautiful archipelago and sea birds, and a great cruise until we arrive at Tortuga Island that is known for its immaculate white sand beach and turquoise waters, a perfect stop for swimming and snorkeling.
-            </p>
-            <p class=izquierda>
-               You will remain on the island for approximately four hours where you can enjoy different activities such as canopy, hiking trails, kayaking, snorkeling, swimming, beach sports or simply relax and enjoy the beach while the crew prepares an exquisite style lunch
-            </p>
-            <p class=izquierda>
-               Includes: Transporte, Guia, light breakfast, cruise, tropical fruits, refreshments, live music and Almuerzo. Bring: light clothing, bathing suit, towel, sunscreen lotion, hat, and camera.
-            </p>
-            <p class="izquierda">
-            <strong>Precio:</strong> $135 pp
-            </p>
-            <p class=izquierda>
-            <strong>What to bring?</strong>    Hat, sunblock, swimming suit, towel and camera
-            </p>
+          <h2>Crucero Isla Tortuga</h2>
+          </div>
+          <p clase=izquierda>
+            Aborde un bote en Puntarenas y disfrute del Golfo de Nicoya, un hermoso archipiélago y aves marinas, y un gran crucero hasta llegar a Isla Tortuga, conocida por su inmaculada playa de arena blanca y aguas turquesas, una parada perfecta para nadar y bucear.
+          </p>
+          <p clase=izquierda>
+             Permanecerás en la isla por aproximadamente cuatro horas donde podrás disfrutar de diferentes actividades como canopy, caminatas por senderos, kayak, snorkel, nado, deportes de playa o simplemente relajarte y disfrutar de la playa mientras la tripulación prepara un almuerzo de estilo exquisito.
+          </p>
+          <p clase=izquierda>
+             Incluye: Transporte, Guía, desayuno ligero, crucero, frutas tropicales, refrigerios, música en vivo y Almuerzo. Traer: ropa ligera, traje de baño, toalla, bloqueador solar, sombrero y cámara.
+          </p>
+          <p class="izquierda">
+          <strong>Precio:</strong> $135 por persona
+          </p>
+          <p clase=izquierda>
+          <strong>¿Qué llevar?</strong> Sombrero, bloqueador solar, traje de baño, toalla y cámara
+          </p>
             
           
           <hr>
@@ -1173,20 +1178,20 @@ function IOL(){
       <div class="col-md-8 ">
         <div class="portfolios">
           <div class="text-center">
-            <h2>Irazú Volcano, Orosi Valley & Lankester Garden</h2>
-            </div>
-            <p class=izquierda>
-              This excursion offers the opportunity to visit the City of Cartago and its Basilica of Los Angeles, to discover the highest volcano in Costa Rica at 11000 feet above sea level and its amazing resemblance to the moon’s surface.
-            </p>
-            <p class=izquierda>
-               then descend to the historic and colorful Valley of Orosi where you will have the opportunity to visit the oldest church of Costa Rica, the Colonial church of Orosi, and its town.
-            </p>
-            <p class="izquierda">
-            <strong>Precio:</strong> $112 pp
-            </p>
-           <p class=izquierda>
-            <strong>What to bring?</strong>    Walking shoes, binoculars, raincoat and camera
-            </p>  
+          <h2>Volcán Irazú, Valle de Orosi y Jardín Lankester</h2>
+          </div>
+          <p clase=izquierda>
+            Esta excursión ofrece la oportunidad de visitar la Ciudad de Cartago y su Basílica de Los Ángeles, para descubrir el volcán más alto de Costa Rica a 11000 pies sobre el nivel del mar y su asombroso parecido con la superficie de la luna.
+          </p>
+          <p clase=izquierda>
+             luego descienda al histórico y colorido Valle de Orosi donde tendrá la oportunidad de visitar la iglesia más antigua de Costa Rica, la iglesia colonial de Orosi y su pueblo.
+          </p>
+          <p class="izquierda">
+          <strong>Precio:</strong> $112 por persona
+          </p>
+         <p clase=izquierda>
+          <strong>¿Qué llevar?</strong> Zapatos para caminar, binoculares, impermeable y cámara.
+          </p>
           
           <hr>
                <div class="text-center">
@@ -1263,27 +1268,27 @@ function ManuelAntonio(){
       <div class="col-md-8 ">
         <div class="portfolios">
           <div class="text-center">
-            <h2>Manuel Antonio National Park</h2>
-            </div>
-            <p class=izquierda>
-              This national park is considered to be one of the most beautiful in the country. It is a combination of a paradisiacal beach of crystalline waters with coral reefs, bordered by exuberant vegetation and the natural captivations of the tropical humid forest.
-            </p>
-            <p class=izquierda>
-               Its beaches are counted among the best in the country, where snorkelling and surfing are very popular. On the way to Manuel Antonio along the coastal line, you will enjoy nice views and will be crossing plantations of African palm and picturesque villages along the Pacific coast, until you reach the port of Quepos and a few minutes after the National Park.
-            </p>
-            <p class=izquierda>
-              At our arrival we will hike to the park, crossing a creek to access the park, since this park is closed to vehicles. Once at the park, it is possible to simply enjoy the beach, take a sunbath, or a nature walk through the park’s trails, which will allow you to observe the abundant flora and fauna of the park, especially several species of monkeys, iguanas, birds, and maybe, the three toed sloth.
-            </p>
-            <p class=izquierda>
-              One of the trails borders Cathedral Point from where the sight of the park and the sea is spectacular. On our way back to San José, we will stop at Molas Souvenir, where you could have the opportunity to get the finest Costa rican arts.
+          <h2>Parque Nacional Manuel Antonio</h2>
+          </div>
+          <p clase=izquierda>
+            Este parque nacional es considerado uno de los más bellos del país. Es una combinación de una paradisíaca playa de aguas cristalinas con arrecifes de coral, bordeada por una exuberante vegetación y los encantos naturales del bosque húmedo tropical.
+          </p>
+          <p clase=izquierda>
+             Sus playas se cuentan entre las mejores del país, donde el snorkel y el surf son muy populares. En el camino a Manuel Antonio a lo largo de la línea costera, disfrutará de hermosas vistas y cruzará plantaciones de palma africana y pintorescos pueblos a lo largo de la costa del Pacífico, hasta llegar al puerto de Quepos y unos minutos después el Parque Nacional.
+          </p>
+          <p clase=izquierda>
+            A nuestra llegada haremos una caminata hasta el parque, cruzando un arroyo para acceder al parque, ya que este parque está cerrado a los vehículos. Una vez en el parque, es posible simplemente disfrutar de la playa, tomar un baño de sol o realizar una caminata por la naturaleza a través de los senderos del parque, lo que le permitirá observar la abundante flora y fauna del parque, especialmente varias especies de monos, iguanas, pájaros, y tal vez, el perezoso de tres dedos.
+          </p>
+          <p clase=izquierda>
+            Uno de los senderos bordea Punta Catedral desde donde la vista del parque y el mar es espectacular. En nuestro camino de regreso a San José, nos detendremos en Molas Souvenir, donde tendrá la oportunidad de obtener las mejores artes costarricenses.
 
-            </p>
-            <p class="izquierda">
-            <strong>Precio:</strong> $135 pp
-            </p>
-             <p class=izquierda>
-            <strong>What to bring?</strong>  Hat, sun block, swimming suit, towel and camera.
-            </p> 
+          </p>
+          <p class="izquierda">
+          <strong>Precio:</strong> $135 por persona
+          </p>
+           <p clase=izquierda>
+          <strong>¿Qué llevar?</strong> Gorro, bloqueador solar, traje de baño, toalla y cámara.
+          </p>
           
           <hr>
                <div class="text-center">
@@ -1352,26 +1357,26 @@ function PDGS(){
       <div class="col-md-8 ">
         <div class="portfolios">
           <div class="text-center">
-            <h2>Poás Volcano, Doka Estates, Grecia & Sarchí</h2>
-            </div>
-            <p class=izquierda>
-              Admire the imposing Poás Volcano at a height 8.884 ft above sea level. Visit a unique coffee plantation and the historic city of Sarchí on this exciting day trip.
-            </p>
-            <p class=izquierda>
-              Our first stop is Poás Volcano National Park, where you will enjoy magnificent views of the Central Valley and the volcano´s enormous crater - considered one of the largest in the world! Next, we will visit the beautiful coffee plantations at Doka Estate.
-            </p>
-            <p class=izquierda>
-               You will be Guiad through the estate, visiting the plantations and the 96 year old "beneficio" or coffee mill. Learn how the best coffee beans turn into a fabulous cup of java before enjoying a regional Costa Rican Almuerzo. Continue to the town of Sarchí, home to Costa Rica’s most experienced artisans.
-            </p>
-            <p class=izquierda>
-              Here, see first-hand how typical oxcarts are built and painted, indulge in buying the local’s beautiful wood souvenirs!
-            </p>
-            <p class="izquierda">
-            <strong>Precio:</strong> $112 pp
-            </p>
-            <p class=izquierda>
-            <strong>What to bring?</strong>   Comfortable shoes, long pants, y camera.
-            </p> 
+          <h2>Volcán Poás, Doka Estates, Grecia y Sarchí</h2>
+          </div>
+          <p clase=izquierda>
+            Admira el imponente Volcán Poás a una altura de 8.884 pies sobre el nivel del mar. Visite una plantación de café única y la ciudad histórica de Sarchí en esta emocionante excursión de un día.
+          </p>
+          <p clase=izquierda>
+            Nuestra primera parada es el Parque Nacional Volcán Poás, donde disfrutará de magníficas vistas del Valle Central y del enorme cráter del volcán, ¡considerado uno de los más grandes del mundo! A continuación, visitaremos las hermosas plantaciones de café en Doka Estate.
+          </p>
+          <p clase=izquierda>
+             Será guiado por la finca, visitando las plantaciones y el "beneficio" o beneficio de café de 96 años. Aprenda cómo los mejores granos de café se convierten en una fabulosa taza de café antes de disfrutar de un Almuerzo costarricense regional. Continúe hasta el pueblo de Sarchí, hogar de los artesanos más experimentados de Costa Rica.
+          </p>
+          <p clase=izquierda>
+            Aquí, vea de primera mano cómo se construyen y pintan las típicas carretas de bueyes, ¡disfrute comprando los hermosos recuerdos de madera del lugar!
+          </p>
+          <p class="izquierda">
+          <strong>Precio:</strong> $112 por persona
+          </p>
+          <p clase=izquierda>
+          <strong>¿Qué llevar?</strong> Zapatos cómodos, pantalón largo, cámara.
+          </p>
           
           <hr>
                <div class="text-center">
@@ -1452,23 +1457,24 @@ function Cooffee(){
             <h2>Britt Coffee Tour</h2>
             </div>
             <p class=izquierda>
-              Imagine following the journey of a coffee bean from the plantation to the processing plant to a cup of gourmet coffee, our experts Guia you through the lifecycle of gourmet coffee. Begin in our nursery and follow the beans starting with their growing cycle through careful collection and selection of the finest beans.
+              Imagínese seguir el viaje de un grano de café desde la plantación hasta la planta de procesamiento y una taza de café gourmet, nuestros expertos lo guían a través del ciclo de vida del café gourmet. Comience en nuestro vivero y siga los granos desde su ciclo de crecimiento a través de una cuidadosa recolección y selección de los mejores granos.
             </p>
             <p class=izquierda>
-              Learn how Costa Rica’s unique climate and diverse landscapes provide perfect growing conditions for gourmet coffee beans. Next you will be enchanted by the aromas of our roastery where you will discover how different roasting techniques affect the beans and the brew. We’ll reveal our roasting and packing secrets that enable us to deliver the best coffee from our Costa Rican plantation to your cup - anywhere in the world.
+              Conozca cómo el clima único y los diversos paisajes de Costa Rica brindan las condiciones de cultivo perfectas para los granos de café gourmet. A continuación, quedará encantado con los aromas de nuestra tostaduría, donde descubrirá cómo las diferentes técnicas de tostado afectan los granos y la infusión. Revelaremos nuestros secretos de tostado y empaque que nos permiten entregar el mejor café de nuestra plantación de Costa Rica a su taza, en cualquier parte del mundo.
             </p>
             <p class=izquierda>
-               Learn how experts “break the cup” by using techniques to taste or “cup” coffee to identify and grade the characteristics that qualify a gourmet coffee. Finally, surrounded by our outdoor tropical paradise and while listening to traditional music, you have an option of savoring a buffet lunch featuring local ingredients at our Don Prospero Restaurant.
+Aprenda cómo los expertos “rompen la taza” usando técnicas para probar o “tazar” el café para identificar y calificar las características que califican un café gourmet. Finalmente, rodeado de nuestro paraíso tropical al aire libre y mientras escucha música tradicional, tiene la opción de saborear un almuerzo buffet con ingredientes locales en nuestro Restaurante Don Próspero.
             </p>
             <p class=izquierda>
-              Visit our coffee bar, order and enjoy the coffee beverage of your dreams. Browse our factory store and gift shop and allow us to ship some souvenirs and fresh coffee back to your home where they will remind you of your Costa Rican tropical adventure.
+Visita nuestra cafetería, pide y disfruta de la bebida de café de tus sueños. Explore nuestra tienda de fábrica y tienda de regalos y permítanos enviarle algunos recuerdos y café recién hecho a su hogar, donde le recordarán su aventura tropical en Costa Rica.
             </p>
             <p class="izquierda">
             <strong>Precio:</strong> $76 pp
             </p>
             <p class=izquierda>
-            <strong>What to bring?</strong>   Comfortable shoes, long pants, and camera.
-            </p> 
+            <strong>¿Qué llevar?</strong
+            > Zapatos cómodos, pantalón largo y cámara. </p>
+
           
           <hr>
                <div class="text-center">
@@ -1538,25 +1544,25 @@ function Vip(){
       <div class="col-md-8 ">
         <div class="portfolios">
           <div class="text-center">
-            <h2>Vip City Bus</h2>
-            </div>
-            <p class=izquierda>
-              Our unique sightseeing double decker bus will take you to downtown San Jose from your
-              hotel to witness the city's main historical landmarks for an immersive and panoramic cultural
-              experience and a better understanding of Costa Rica's evolution.
-            </p>
-            <p class=izquierda>
-              Our favorite places to visit for a Guiad walk in San Jose include Costa Rica's cherished National Theater (lobby), Art Museum, Metropolitan Cathedral the old and authentic Central Market, the new and impressive National Stadium, an in-depth description of the National Monument, and the influential historical episode that took place at the Democracy Plaza.
-            </p>
-            <p class=izquierda>
-               Our VIP City Bus tour will take you comfortably and safely through San Jose's narrow and busy streets driving by beautiful outdoor city attractions. The living city is our museum.
-            </p>
-            <p class="izquierda">
-            <strong>Precio:</strong> $76 pp
-            </p>
-            <p class=izquierda>
-            <strong>What to bring?</strong>  Comfortable shoes, long pants, y cámara
-            </p> 
+          <h2>Autobús Urbano VIP</h2>
+          </div>
+          <p clase=izquierda>
+            Nuestro exclusivo autobús turístico de dos pisos lo llevará al centro de San José desde su
+            hotel para presenciar los principales hitos históricos de la ciudad para una inmersión cultural y panorámica
+            experiencia y una mejor comprensión de la evolución de Costa Rica.
+          </p>
+          <p clase=izquierda>
+            Nuestros lugares favoritos para visitar para una caminata Guiad en San José incluyen el preciado Teatro Nacional de Costa Rica (vestíbulo), el Museo de Arte, la Catedral Metropolitana, el antiguo y auténtico Mercado Central, el nuevo e impresionante Estadio Nacional, una descripción detallada del Monumento Nacional. , y el influyente episodio histórico ocurrido en la Plaza de la Democracia.
+          </p>
+          <p clase=izquierda>
+             Nuestro recorrido en autobús urbano VIP lo llevará de manera cómoda y segura a través de las calles estrechas y concurridas de San José, conduciendo por hermosas atracciones al aire libre de la ciudad. La ciudad viva es nuestro museo.
+          </p>
+          <p class="izquierda">
+          <strong>Precio:</strong> $76 por persona
+          </p>
+          <p clase=izquierda>
+          <strong>¿Qué llevar?</strong> Zapatos cómodos, pantalón largo y cámara
+          </p>
           
           <hr>
                <div class="text-center">
@@ -1626,38 +1632,38 @@ function SeisEnUno(){
       <div class="col-md-8 ">
         <div class="portfolios">
           <div class="text-center">
-            <h2>6 in 1</h2>
-            </div>
-            <p class=izquierda>
-              Rainforest Adventures, Costa Rica, offers you the most complete eco-adventure package of
-              the country. This “6 in 1” includes attractive products to assure you an incredible and
-              unforgettable natural experience. Enjoy alongside your family and friends of the spectacular
-              Atlantic rainforest within Braulio Carrillo Park, by doing some activities like: aerial tram,
-              zip-lines, adrena-line, butterflies and frogs garden, a Guiad walk and a hanging bridge tour.
-            </p>
-            <p class=izquierda>
-              Start this rich experience with a true flight over the treetops in our comfortable aerial tram
-              while an expert naturalist Guia describes hidden treasures of the forest
-            </p>
-            <p class=izquierda>
-              Then you’ll experience real emotion with our zip line tour with 14 safe platforms and 10 cables,
-               which include the thrill of the Adrena-line cable, of 2297 feet long and 55 km/h speed.
-            </p>
-            <p class=izquierda>
-              Back to the
-              ground you will feel relaxation during a Guiad walk through our natural trails with a visit
-              over Molinete river’s hanging bridge and a fun and educational stop to our very own
-              hummingbird, butterflies and frogs garden, where you can learn about different species of the
-              region.
+          <h2>6 en 1</h2>
+          </div>
+          <p clase=izquierda>
+            Rainforest Adventures, Costa Rica, le ofrece el paquete de ecoaventura más completo de
+            el país. Este “6 en 1” incluye atractivos productos para asegurarte una increíble y
+            experiencia natural inolvidable. Disfruta junto a tu familia y amigos de lo espectacular
+            Selva Atlántica dentro del Parque Braulio Carrillo, realizando algunas actividades como: teleférico,
+            tirolinas, adrenalina, jardín de mariposas y ranas, paseo guiado y recorrido por puentes colgantes.
+          </p>
+          <p clase=izquierda>
+            Comienza esta rica experiencia con un verdadero vuelo sobre las copas de los árboles en nuestro cómodo teleférico
+            mientras un experto naturalista Guia describe los tesoros escondidos del bosque
+          </p>
+          <p clase=izquierda>
+            Entonces vivirás verdaderas emociones con nuestro recorrido en tirolesa con 14 plataformas seguras y 10 cables,
+             que incluyen la emoción del cable Adrena-line, de 2297 pies de largo y 55 km/h de velocidad.
+          </p>
+          <p clase=izquierda>
+            De vuelta a
+            tierra sentirás relajación durante un paseo guiado por nuestros senderos naturales con una visita
+            sobre el puente colgante del río Molinete y una parada divertida y educativa para nuestro propio
+            jardín de colibríes, mariposas y ranas, donde se puede aprender sobre diferentes especies del
+            región.
 
-            </p>
+          </p>
 
             <p class="izquierda">
             <strong>Precio:</strong> $150 pp
             </p>
 
-            <p class=izquierda>
-            <strong>What to bring?</strong>  Walking shoes, binoculars, raincoat and camera.
+            <p clase=izquierda>
+            <strong>¿Qué llevar?</strong> Zapatos para caminar, binoculares, impermeable y cámara.
             </p>
             
           
@@ -1729,31 +1735,31 @@ function Tocori(){
       <div class="col-md-8 ">
         <div class="portfolios">
           <div class="text-center">
-            <h2>Mountain & Waterfall</h2>
-            </div>
-            <p class=izquierda>
-             Let Don Gilberto and his family show you the real Costa Rica – on horseback! Once they pick you up the adventure in history and nature begins, 
-             starting with the Quepos Indians and leads you through the changes of Manuel Antonio today.
-            </p>
-            <p class=izquierda>
-              Enjoy learning about Costa Rica’s exotic plants and rare wildlife as you ride through the tropical jungle
-               and private ecological reserve at Tocori, just minutes away from Manuel Antonio.
-            </p>
-            <p class=izquierda>
-              After a relaxing hour-long ride on horseback through the tropical rain forest – with the pace determined by your comfort level and riding ability – 
-              leave your horses on the trail as Don Gilberto or his daughter Dyala Guia you through the exotic plant and animal life on a nature walk. They will let you taste, 
-              smell, touch and observe firsthand the real Costa Rican jungle. After indulging your mind and spirit with expert knowledge,
-               take a refreshing dip in pristine natural mountain waters while being splashed on by two stunning waterfalls at Tocori.
-            </p>
-            
+          <h2>Montaña y Cascada</h2>
+          </div>
+          <p clase=izquierda>
+           Deje que Don Gilberto y su familia le muestren la verdadera Costa Rica, ¡a caballo! Una vez que te recogen comienza la aventura en la historia y la naturaleza,
+           comenzando con los indios de Quepos y lo lleva a través de los cambios de Manuel Antonio hoy.
+          </p>
+          <p clase=izquierda>
+            Disfrute aprendiendo sobre las plantas exóticas y la fauna rara de Costa Rica mientras recorre la jungla tropical
+             y reserva ecológica privada en Tocori, a pocos minutos de Manuel Antonio.
+          </p>
+          <p clase=izquierda>
+            Después de un relajante paseo a caballo de una hora a través de la selva tropical, con el ritmo determinado por su nivel de comodidad y habilidad para montar,
+            deje sus caballos en el camino como Don Gilberto o su hija Dyala le guiarán a través de la exótica vida vegetal y animal en un paseo por la naturaleza. te dejarán saborear,
+            huele, toca y observa de primera mano la verdadera selva costarricense. Después de complacer su mente y espíritu con conocimiento experto,
+             date un refrescante chapuzón en las prístinas aguas naturales de la montaña mientras te salpican dos impresionantes cascadas en Tocori.
+          </p>
+          
 
-            <p class="izquierda">
-            <strong>Precio:</strong> $125 pp
-            </p>
+          <p class="izquierda">
+          <strong>Precio:</strong> $125 por persona
+          </p>
 
-            <p class=izquierda>
-            <strong>What to bring?</strong>  Comfortable clothes, Long pants & Towel, a hat, Hiking boots or water shoes, Bathing suit (wear underneath),Sun Block & Insect Repellent
-            </p>
+          <p clase=izquierda>
+          <strong>¿Qué traer?</strong> Ropa cómoda, pantalones largos y toalla, sombrero, botas de montaña o zapatos para el agua, traje de baño (usar debajo), bloqueador solar y repelente de insectos
+          </p>
             
           
           <hr>
@@ -1826,32 +1832,31 @@ function CincoEnUno(){
           <div class="text-center">
             <h2>5 in 1 Extreme adrenaline</h2>
             </div>
-            <p class=izquierda>
-             Get your thrills on this five-in-one eco-adventure combo package in Jacó. Soar above the canopy in an aerial tram,
-              trek jungle trails, rock climb a 164-foot (50-meter) waterfall, glide on a 10-cable, 15-platform zipline, and dangle 
-              from a hanging sky bridge. Learn about Costa Rica’s incredible tropical eco-system from the bilingual naturalist guiding 
-              your journey and upgrade your experience to include lunch.
-            </p>
-            <p class=izquierda>
-             Start this great trip by flying over the treetops in our aerial tram tour while you learn all about the nature that surrounds you,
-              then soar above the clouds and fly over the treetops and immerse yourself in nature and it’s surroundings experiencing first hand 
-              why Costa Rica is the best Adventure and Eco-tourism destination in the world.
-              
-            </p>
-            <p class=izquierda>
-            <strong>The tour include:Zip-lines (10 cables and 15 platforms), Highropes course,Aerial tram, Trekking (400mts)</strong>
-              
-            </p>
-           
+            <p clase=izquierda>
+            Obtenga sus emociones en este paquete combinado de ecoaventura cinco en uno en Jacó. Vuela por encima del dosel en un tranvía aéreo,
+             camine por los senderos de la jungla, escale una cascada de 50 metros (164 pies), deslícese en una tirolesa de 10 cables y 15 plataformas y cuelgue
+             desde un puente aéreo colgante. Aprenda sobre el increíble ecosistema tropical de Costa Rica con el guía naturalista bilingüe
+             su viaje y mejore su experiencia para incluir el almuerzo.
+           </p>
+           <p clase=izquierda>
+            Comienza este gran viaje volando sobre las copas de los árboles en nuestro recorrido en teleférico mientras aprendes todo sobre la naturaleza que te rodea,
+             luego vuele por encima de las nubes y vuele sobre las copas de los árboles y sumérjase en la naturaleza y sus alrededores experimentando de primera mano
+             por qué Costa Rica es el mejor destino de Aventura y Ecoturismo del mundo.
+             
+           </p>
+           <p clase=izquierda>
+           <strong>El tour incluye: Tirolinas (10 cables y 15 plataformas), Circuito de cuerdas altas, Teleférico, Trekking (400mts)</strong>
+             
+           </p>
+          
 
-            <p class="izquierda">
-            <strong>Precio:</strong> $65 pp
-            </p>
+           <p class="izquierda">
+           <strong>Precio:</strong> $65 por persona
+           </p>
 
-            <p class=izquierda>
-            <strong>What to bring?</strong>  Light Clothing, Closed Toes Shoes (Mandatory), Extra Clothes & Raincoat, Sun Block & Insect Repellent, Camera.
-            </p>
-            
+           <p clase=izquierda>
+           <strong>¿Qué llevar?</strong> Ropa ligera, zapatos cerrados (obligatorio), ropa extra e impermeable, bloqueador solar y repelente de insectos, cámara.
+           </p>
           
           <hr>
                <div class="text-center">
@@ -2119,224 +2124,267 @@ var manualNav = function(manual){
 
 
 
+function abrir() {
+	overlay.classList.add('active');
+	popup.classList.add('active');
+};
 
+btnCerrarpopup.addEventListener('click', function() {
+	overlay.classList.remove('active');
+	popup.classList.remove('active');
+});
+
+function filter(){
+    const filter = document.getElementById('filter');
+    if(filter.style.display == 'none'){
+      filter.style.display = 'block';
+    }else{
+      filter.style.display = 'none';
+    }
+
+    const menu = document.querySelectorAll('filterMenu');
+}
+
+function ToursBtn(){
+  location.href = "#aqui";
+  inicio();
+}
+function SanJoseToursPDF(){
+  window.location.href= "../One%20Day%20Tours.pdf";
+}
+
+function JacoToursPDF(){
+  window.location.href= "../Jaco%20One%20Day%20Tours.pdf";
+}
 
 
 
 
 function inicio(){ //Se guarda tdo menos los tours
-    trans.innerHTML = ``;
-    taskForm.style.display = "block";
-    taskForm.innerHTML =`   
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3">
-        <div class="text-center">
-          <h2>One and Half day tours</h2>
+  trans.innerHTML = ``;
+  taskForm.style.display = "block";
+  taskForm.innerHTML =`               
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <div class="text-center">
+      <h2>Excursiones de un día y medio</h2>
 
-            <p>
-              <br>4% Value Added Taxes (VAT), must be summed up to all rates <br> From July 2021 to July 2022<br><strong>Click the name to see more information<strong>.
-          </p>
-        </div>
-        <hr>
+          <p>
+            <br>4% de Impuesto al Valor Agregado (IVA), debe sumarse a todas las tarifas <br> De julio de 2021 a julio de 2022<br><strong>Haga clic en el nombre para ver más información<strong>.
+        </p>
       </div>
-    </div>
-    <div class="content">
-     
-        <div class="grid">
-          
-            <figure class=" effect-zoe click " > 
-              <div  onclick="SeisEnUno()">
-                <img loading="lazy" class="imgres" src="../img/6-in-1/6 in 1.jpg" alt="img25" />
-                <figcaption class="tour">
-                  <h2> <span><a href="#Aqui"> 6 in 1</a></span></h2>
-                  <p class="icon-links">$139 pp</p>
-                </figcaption>
-              </div>
-            </figure>
-
-            <figure class="tour effect-zoe click ">
-              <div onclick="Vip()"> 
-                <img loading="lazy" src="../img/city bus.jpg" alt="img26" />
-                <figcaption>
-                  <h2><span> <a href="#Aqui">Vip City Bus</a></span></h2>
-                  <p class="icon-links">$69 pp</p>
-                </figcaption>
-              </div>
-            </figure>
-          
-        </div>
-      </div>
-    </div>
-
-    <div class="content">
-      <div class="responsive">
-        <div class="grid">
-
-          <figure class="effect-zoe click">
-            <div onclick="Cooffee()">
-              <img loading="lazy" src="../img/coffe tour.jpg" alt="img25" />
-              <figcaption>
-                <h2> <span><a href="#Aqui">Coffee Tour</a></span></h2>
-                <p class="icon-links">$59 - $55 pp</p>
-              </figcaption>
-            </div>
-          </figure>
-
-          <figure class="effect-zoe click">
-            <div onclick="PDGS()">
-              <img loading="lazy" src="../img/poas-volcano-doka-grecia-sarchi.jpg" alt="img26" />
-              <figcaption>
-                <h2><span> <a href="#Aqui">Poas,Doka,Grecia</a></span></h2>
-                <p class="icon-links">$67 pp</p>
-              </figcaption>
-            </div>
-          </figure>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="content">
-      <div class="responsive">
-        <div class="grid">
-
-          <figure class="effect-zoe click">
-            <div onclick="ManuelAntonio()">
-              <img loading="lazy" src="../img/Manuel Antonio na.jpg" alt="img25" />
-              <figcaption>
-                <h2> <span><a href="#Aqui">Manuel Antonio</a></span></h2>
-                <p class="icon-links">$135 pp</p>
-              </figcaption>
-            </div>
-          </figure>
-
-          <figure class="effect-zoe click">
-            <div onclick="IOL()">
-              <img loading="lazy" src="../img/Irazu-Volcano-Orosi-Valley-Lankester-Garden.jpg" alt="img26" />
-              <figcaption>
-                <h2><span> <a href="#Aqui">Irazú,Orosi,Lankaster</a></span></h2>
-                <p class="icon-links">$112 pp</p>
-              </figcaption>
-            </div>
-          </figure>
-         
-        </div>
-      </div>
-    </div>
-
-    <div class="content">
-      <div class="responsive">
-        <div class="grid">
-
-          <figure class="effect-zoe click">
-            <div onclick="TortugaIsland()">
-              <img loading="lazy" src="../img/Isla tortuga.jpg" alt="img25" />
-              <figcaption>
-                <h2> <span><a href="#Aqui">Tortuga Island Cruise</a></span></h2>
-                <p class="icon-links">$135 pp</p>
-              </figcaption>
-            </div>
-          </figure>
-
-          <figure class="effect-zoe click">
-            <div onclick="Folk()">
-              <img loading="lazy" src="../img/Dinner.jpg" alt="img26" />
-              <figcaption>
-                <h2><span> <a href="#Aqui">Folklore Dinner Show</a></span></h2>
-                <p class="icon-links">$70 pp</p>
-              </figcaption>
-            </div>
-          </figure>
-          
-        </div>
-      </div>
-    </div>
-
-    <div class="content">
-      <div class="responsive">
-        <div class="grid">
-
-          <figure class="effect-zoe click">
-            <div onclick="tortuguero()">
-              <img loading="lazy" src="../img/Tortuguero.jpg" alt="img25" />
-              <figcaption>
-                <h2> <span><a href="#Aqui"> Tortuguero NP</a></span></h2>
-                <p class="icon-links">$140 pp</p>
-              </figcaption>
-            </div>
-          </figure>
-
-          <figure class="effect-zoe click">
-            <div onclick="aereal()">
-              <img loading="lazy" src="../img/Tram/Tram.jpg" alt="img26" />
-              <figcaption>
-                <h2><span> <a href="#Aqui">Rainforest Aerial Tram</a></span></h2>
-                <p class="icon-links">$107 pp</p>
-              </figcaption>
-            </div>
-          </figure>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="content">
-      <div class="responsive">
-        <div class="grid">
-
-          <figure class="effect-zoe click">
-            <div onclick="at()">
-              <img loading="lazy" src="../img/Arenal TB.jpg" alt="img25" />
-              <figcaption>
-                <h2> <span><a href="#Aqui"> Arenal & Hot springs</a></span></h2>
-                <p class="icon-links">$162 pp</p>
-              </figcaption>
-            </div>
-          </figure>
-
-          <figure class="effect-zoe click">
-            <div onclick="pacuare()">
-              <img loading="lazy" src="../img/Pacuare/Pacuare.jpg" alt="img26" />
-              <figcaption>
-                <h2><span> <a href="#Aqui"> Rafting Pacuare River</a></span></h2>
-                <p class="icon-links">$99 pp</p>
-              </figcaption>
-            </div>
-          </figure>
-
-        </div>
-      </div>
-    </div>
-
-  <div class="content">
-    <div class="responsive">
-      <div class="grid">
-
-        <figure class="effect-zoe click">
-          <div onclick="combo()">
-            <img loading="lazy" src="../img/combo.jpg" alt="img25" />
-            <figcaption>
-              <h2> <span><a href="#Aqui"> Combo Tour</a></span></h2>
-              <p class="icon-links">$149 pp</p>
-            </figcaption>
-          </div> 
-        </figure>
-
-        <figure class="effect-zoe click">
-          <div onclick="canopy()">
-            <img loading="lazy" src="../img/Canopy/Canopy.jpg" alt="img26" />
-            <figcaption>
-              <h2><span> <a href="#Aqui">Rainforest canopy</a></span></h2>
-              <p class="icon-links">$96 pp</p>
-            </figcaption>
-          </div>
-        </figure>
-
-      </div>
+      <hr>
     </div>
   </div>
-   <div class="text-center" ><a href="One%20Day%20Tours.pdf" class="btn btn-primary btn-lg" onclick="">More</a></div>
+
+  <div class="text-center" >
+      <a  class="btn btn-primary btn-lg more" onclick="Jaco()">Jaco</a>
+      <a  class="btn btn-primary btn-lg more" onclick="Sanjose()">San jose</a>
+  </div>
+  
+  <ul class="cards">
+    <li class="cards__item SJ">
+      <div class="card">
+        <div class="card__image card__image--coffe "></div>
+        <div class="card__content">
+          <div class="card__title">Coffee tour</div>
+          <p class="card__text">
+          Imagínese seguir el viaje de un grano de café desde la plantación hasta la planta de procesamiento hasta una taza de café gourmet, nuestros expertos lo guían a través del ciclo de vida del café gourmet.  </p>
+          <button onclick="Cooffee()" class="btn btn--block card__btn" >Mas informacion</button>
+        </div>
+      </div>
+    </li>
+    <li class="cards__item SJ">
+      <div class="card">
+        <div class="card__image card__image--flowers "></div>
+        <div class="card__content">
+          <div class="card__title">6 in 1</div>
+          <p class="card__text">Combine seis actividades populares en la selva tropical en un solo día repleto de aventuras en este tour al Parque Nacional Braulio Carrillo desde San José. Vuela por tirolinas sobre el dosel de la selva tropical,
+             Visite un terrario y un jardín de mariposas, camine por senderos naturales y más, todo con transporte de ida y vuelta sin complicaciones desde su hotel en San José y un almuerzo típico costarricense para seguir adelante.
+          </p>
+          <button onclick="SeisEnUno()" class="btn btn--block card__btn" >Mas informacion</button>
+        </div>
+      </div>
+    </li>
+    <li class="cards__item SJ">
+      <div class="card">
+        <div class="card__image card__image--Vip "></div>
+        <div class="card__content">
+          <div class="card__title">VIP City Bus</div>
+          <p class="card__text">Nuestro exclusivo autobús turístico de dos pisos lo llevará al centro de San José desde su hotel para presenciar los principales lugares de interés histórico de la ciudad en una experiencia inmersiva y
+          experiencia cultural panorámica y una mejor comprensión de la evolución de Costa Rica.
+          </p>
+          <button onclick="Vip()" class="btn btn--block card__btn" >Mas informacion</button>
+        </div>
+      </div>
+    </li>
+    <li class="cards__item SJ">
+      <div class="card">
+        <div class="card__image card__image--PDGS "></div>
+        <div class="card__content">
+          <div class="card__title">Poas,Doka,Grecia</div>
+          <p class="card__text">Admire the imposing Poás Volcano at a height 8.884 ft above sea level. Visit a unique coffee plantation and the historic city of Sarchí on this exciting day trip
+          </p>
+          <button onclick="PDGS()" class="btn btn--block card__btn" >Mas informacion</button>
+        </div>
+      </div>
+    </li>
+    <li class="cards__item SJ">
+      <div class="card">
+        <div class="card__image card__image--ManuelAntonio "></div>
+        <div class="card__content">
+          <div class="card__title">Manuel Antonio</div>
+          <p class="card__text">Este parque nacional es considerado uno de los más bellos del país. Es una combinación de una playa paradisíaca de aguas cristalinas con arrecifes de coral,
+          bordeado por una exuberante vegetación y los encantos naturales del bosque húmedo tropical.
+        </p>
+          <button onclick="ManuelAntonio()" class="btn btn--block card__btn" >Mas informacion</button>
+        </div>
+      </div>
+    </li>
+    <li class="cards__item SJ">
+      <div class="card">
+        <div class="card__image card__image--IOL "></div>
+        <div class="card__content">
+          <div class="card__title">Irazú,Orosi,Lankaster</div>
+          <p class="card__text">Esta excursión ofrece la oportunidad de visitar la Ciudad de Cartago y su Basílica de Los Ángeles, para descubrir el volcán más alto de Costa Rica en
+          11000 pies sobre el nivel del mar y su asombroso parecido con la superficie de la luna.
+       </p>
+          <button onclick="IOL()" class="btn btn--block card__btn" >Mas informacion</button>
+        </div>
+      </div>
+    </li>
+    <li class="cards__item SJ">
+      <div class="card">
+        <div class="card__image card__image--Totuga "></div>
+        <div class="card__content">
+          <div class="card__title">Tortuga Island Cruise</div>
+          <p class="card__text">Aborde un bote en Puntarenas y disfrute del Golfo de Nicoya, un hermoso archipiélago y aves marinas, y un gran crucero hasta llegar a Isla Tortuga, conocida por su inmaculada playa de arena blanca y aguas turquesas. una parada perfecta para nadar y bucear.
+           </p>
+          <button onclick="TortugaIsland()" class="btn btn--block card__btn" >Mas informacion</button>
+        </div>
+      </div>
+    </li>
+    <li class="cards__item SJ">
+      <div class="card">
+        <div class="card__image card__image--Folk "></div>
+        <div class="card__content">
+          <div class="card__title">Folklore Dinner Show</div>
+          <p class="card__text">Hogar del espectáculo Tierra Típica. Ram Luna se alza sobre las montañas que dominan el Valle Central. Desde este punto de vista único, puede admirar las auspiciosas vistas panorámicas al atardecer y luego disfrutar del brillo de las luces que emanan de la capital.
+           </p>
+          <button onclick="Folk()" class="btn btn--block card__btn" >Mas informacion</button>
+        </div>
+      </div>
+    </li>
+    <li class="cards__item SJ">
+      <div class="card">
+        <div class="card__image card__image--Tortuguero "></div>
+        <div class="card__content">
+          <div class="card__title">Tortuguero NP</div>
+          <p class="card__text">Esta es una expedición a través de la densa jungla de una de las regiones más bellas y escénicas de Costa Rica. Navega los exóticos canales del Parque Nacional Tortuguero, famoso por sus solitarias playas donde se lleva a cabo el desove de gigantescas tortugas verdes (julio a septiembre).
+           </p>
+          <button onclick="tortuguero()" class="btn btn--block card__btn" >Mas informacion</button>
+        </div>
+      </div>
+    </li>
+    <li class="cards__item SJ">
+      <div class="card">
+        <div class="card__image card__image--Aereal "></div>
+        <div class="card__content">
+          <div class="card__title">Rainforest Aerial Tram</div>
+          <p class="card__text">Este teleférico del bosque lluvioso de San José viaja entre Grove Forest, el dosel y sus jardines, lo que le permite descubrir plantas y animales que generalmente están escondidos en las alturas del bosque.
+           </p>
+          <button onclick="aereal()" class="btn btn--block card__btn" >Mas informacion</button>
+        </div>
+      </div>
+    </li>
+    <li class="cards__item SJ">
+      <div class="card">
+        <div class="card__image card__image--AT "></div>
+        <div class="card__content">
+          <div class="card__title">Aguas termales Arenal</div>
+          <p class="card__text">No es casualidad que el Volcán Arenal y Aguas Termales sea uno de los tours más populares del país. ¡Visitar una de las zonas más famosas de Costa Rica y relajarse en las aguas termales es una experiencia inolvidable!
+           </p>
+          <button onclick="at()" class="btn btn--block card__btn" >Mas informacion</button>
+        </div>
+      </div>
+    </li>
+    <li class="cards__item SJ">
+        <div class="card">
+          <div class="card__image card__image--Pacuare "></div>
+          <div class="card__content">
+            <div class="card__title">Water Rafting Pacuare River</div>
+            <p class="card__text">En esta excursión tienes la oportunidad de estar en uno de los ríos más populares para este deporte, el río Pacuare. Durante el trayecto disfrutarás de incomparables paisajes a lo largo del río.</p>
+            <button onclick="pacuare()" class="btn btn--block card__btn" >Mas informacion</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards__item SJ">
+        <div class="card">
+          <div class="card__image card__image--Combo "></div>
+          <div class="card__content">
+            <div class="card__title">Combo Tour</div>
+            <p class="card__text">A medida que ascendemos hacia el volcán, nos detendremos para una breve explicación de nuestro café. Hay un cambio notable en la temperatura y la vegetación, preparándonos para el placer de la exuberante selva nublada del Volcán Poás.</p>
+            <button onclick="combo()" class="btn btn--block card__btn" >Mas informacion</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards__item SJ">
+        <div class="card">
+          <div class="card__image card__image--Canopy "></div>
+          <div class="card__content">
+            <div class="card__title">Rainforest Canopy</div>
+            <p class="card__text">Nuestro parque ofrece la tirolesa más segura de Costa Rica y atraviesa sin esfuerzo el dosel y sus jardines colgantes bajo la supervisión de nuestros guías experimentados.</p>
+            <button onclick="canopy()" class="btn btn--block card__btn" >Mas informacion</button>
+          </div>
+        </div>
+      </li>
+      <li class="cards__item JC">
+      <div class="card">
+        <div class="card__image card__image--fiveinone "></div>
+        <div class="card__content">
+          <div class="card__title">EXTREME ADRENALINE</div>
+          <p class="card__text">Comienza este gran viaje volando sobre las copas de los árboles en nuestro recorrido en teleférico mientras aprendes todo sobre la naturaleza que te rodea, luego vuela por encima de las nubes y vuela sobre las copas de los árboles y sumérgete en la naturaleza y es entorno experimentando de primera mano por qué Costa Rica es el mejor destino de Aventura y Ecoturismo del mundo.</p>
+          <button onclick="CincoEnUno()" class="btn btn--block card__btn" >Mas informacion</button>
+        </div>
+      </div>
+    </li>
+    <li class="cards__item JC">
+    <div class="card">
+      <div class="card__image card__image--Jaco "></div>
+      <div class="card__content">
+        <div class="card__title">TORTUGA ISLAND from jaco</div>
+        <p class="card__text">Descubre la magia de una isla de ensueño, Isla Tortuga (Isla Tortuga). Se encuentra en el Golfo de Nicoya, Costa Rica, a 12 millas náuticas de Puntarenas</p>
+        <button onclick="TortugaJaco()" class="btn btn--block card__btn" >Mas informacion</button>
+      </div>
+    </div>
+  </li>
+  <li class="cards__item JC">
+  <div class="card">
+    <div class="card__image card__image--tocori "></div>
+    <div class="card__content">
+      <div class="card__title">MOUNTAIN & WATERFALL</div>
+      <p class="card__text">Deje que Don Gilberto y su familia le muestren la verdadera Costa Rica, ¡a caballo! Una vez que lo recogen, comienza la aventura en la historia y la naturaleza, comenzando con los indios de Quepos y lo lleva a través de los cambios de Manuel Antonio hoy</p>
+      <button onclick="Tocori()" class="btn btn--block card__btn" >Mas informacion</button>
+    </div>
+  </div>
+</li>
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="text-center" ><a onclick="abrir()" class="btn btn-primary btn-lg more" onclick="">More</a></div>
 `;
+
+
 }
 
 
@@ -2418,3 +2466,24 @@ async  function name(){
 window.addEventListener('DOMContentLoaded', async (e) =>{	//DOMContentLoaded
     name(); //Cargar la pagina depende de que URL sea pues no se usa php
 })
+
+function Jaco(){
+  const TrJc = document.querySelectorAll('.JC');
+  for (const elem of TrJc) {
+    elem.style.display = 'block';
+  }
+  const TrSJ = document.querySelectorAll('.SJ');
+  for (const elem of TrSJ) {
+    elem.style.display = 'none';
+  }
+}
+function Sanjose(){
+  const TrJc = document.querySelectorAll('.JC');
+  for (const elem of TrJc) {
+    elem.style.display = 'none';
+  }
+  const TrSJ = document.querySelectorAll('.SJ');
+  for (const elem of TrSJ) {
+    elem.style.display = 'block';
+  }
+}
