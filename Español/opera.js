@@ -2169,7 +2169,7 @@ function inicio(){ //Se guarda tdo menos los tours
       <h2>Excursiones de un día y medio</h2>
 
           <p>
-            <br>4% de Impuesto al Valor Agregado (IVA), debe sumarse a todas las tarifas <br> De julio de 2021 a julio de 2022<br><strong>Haga clic en el nombre para ver más información<strong>.
+            <br>8% de Impuesto al Valor Agregado (IVA), debe sumarse a todas las tarifas <br> De julio de 2022 a julio de 2023<br><strong>Haga clic en el nombre para ver más información<strong>.
         </p>
       </div>
 
