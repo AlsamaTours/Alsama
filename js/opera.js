@@ -2067,7 +2067,7 @@ function inicio(){ //Se guarda tdo menos los tours
         <h2>One and Half day tours</h2>
 
           <p>
-            <br>4% Value Added Taxes (VAT), must be summed up to all rates <br> From July 2021 to July 2022<br><strong>Click the name to see more information<strong>.
+            <br>8% Value Added Taxes (VAT), must be summed up to all rates <br> From July 2022 to July 2023<br><strong>Click the name to see more information<strong>.
         </p>
       </div>
 
