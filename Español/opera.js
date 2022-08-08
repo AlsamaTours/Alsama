@@ -495,7 +495,7 @@ function canopy(){
           Los senderos para caminar llevan a los visitantes a las profundidades del suelo de la selva tropical. Los pasajeros estarán atados con equipo seguro de alta calidad diseñado específicamente para este tour de canopy.
         </p>
         <p class="izquierda">
-        <strong>Precio:</strong> $96 por persona
+        <strong>Precio:</strong> $86.4 por persona
         </p>
 
           <p clase=izquierda>
@@ -586,7 +586,7 @@ function combo(){
           </p>
            </p>
            <p class="izquierda">
-          <strong>Precio:</strong> $149 por persona
+          <strong>Precio:</strong> $172.41 por persona
           </p>
 
           <p clase=izquierda>
@@ -683,7 +683,7 @@ function pacuare(){
             Ubicado en el Caribe de Costa Rica, el río Pacuare confina la Montaña de Talamanca, hogar de los indios nativos de Cabécar y una inmensa variedad de flora y fauna. Una vez en el río, recorrerá 16 millas en el corazón de la selva tropical, observando cascadas, aves y la diversidad de la flora.
           </p>
           <p class="izquierda">
-          <strong>Precio:</strong> $99 por persona
+          <strong>Precio:</strong> $122.19 por persona
           </p>
           <p clase=izquierda>
           <strong>¿Qué llevar?</strong> Ropa extra, repelente, zapatos cómodos, toalla, suéter.
@@ -769,7 +769,7 @@ function at(){
             En las aguas termales cercanas al volcán, relájese en los jacuzzis con calefacción natural, llenos de minerales saludables, o disfrute de los servicios adicionales que ofrece el galardonado Tabacon Grand Spa & Thermal Resort o Baldi Hot Springs.
           </p>
           <p class="izquierda">
-          <strong>Precio:</strong> $162 por persona
+          <strong>Precio:</strong> $167.74 por persona
           </p>
           <p clase=izquierda>
           <strong>¿Qué llevar?</strong> Sombrero, bloqueador solar, traje de baño, toalla y cámara
@@ -848,7 +848,7 @@ function aereal(){
             Este mundo poco conocido tiene una belleza increíble y una diversidad biológica extraordinaria. El Tour en “Góndola” (Tranvía Aéreo) es un “Remonte” modificado que cubre una distancia de 2.6 kilómetros a través de la selva tropical de Costa Rica. El recorrido dura aproximadamente 90 minutos. Los visitantes verán los diferentes niveles de una selva tropical, específicamente el nivel más difícil de alcanzar hasta hace poco y la parte del bosque menos conocida científicamente, el dosel (las copas de los árboles). Este curso es muy seguro y muy tranquilo, lo que permite a los visitantes escuchar los diferentes sonidos de la selva tropical.
           </p>
           <p class="izquierda">
-          <strong>Precio:</strong> $107 por persona
+          <strong>Precio:</strong> $115.71 por persona
           </p>
            <p clase=izquierda>
           <strong>¿Qué llevar?</strong> Zapatos para caminar, binoculares, impermeable y cámara.
@@ -933,7 +933,7 @@ function tortuguero(){
              Saldremos temprano y viajaremos a través del Parque Nacional Braulio Carrillo donde pasaremos montañas cubiertas por densos bosques así como numerosos ríos y cascadas hasta llegar al Caribe de Costa Rica. Aquí, cruzaremos las plantaciones de banano para abordar el bote para navegar hacia el Parque Nacional Tortuguero.
           </p>
           <p class="izquierda">
-          <strong>Precio:</strong> $140 por persona
+          <strong>Precio:</strong> $146.63 por persona
           </p>
           <p clase=izquierda>
           <strong>¿Qué llevar?</strong> Zapatos cómodos, repelente, gorra, binoculares, ropa extra y cámara
@@ -1019,7 +1019,7 @@ function Folk(){
              Durante nuestra visita, los artesanos locales exhibirán sus creaciones únicas y exquisitas que representan las diferentes regiones del país. La velada culmina con el tradicional espectáculo de disfraces y un animado espectáculo de fuegos artificiales. ¡No te pierdas esta experiencia inolvidable!
           </p>
           <p class="izquierda">
-          <strong>Precio:</strong> $70 por persona
+          <strong>Precio:</strong> $85.32 por persona
           </p>
         <p clase=izquierda>
           <strong>¿Qué llevar?</strong> Zapatos cómodos, pantalón largo y cámara.
@@ -1104,7 +1104,7 @@ function TortugaIsland(){
              Incluye: Transporte, Guía, desayuno ligero, crucero, frutas tropicales, refrigerios, música en vivo y Almuerzo. Traer: ropa ligera, traje de baño, toalla, bloqueador solar, sombrero y cámara.
           </p>
           <p class="izquierda">
-          <strong>Precio:</strong> $135 por persona
+          <strong>Precio:</strong> $145.03 por persona
           </p>
           <p clase=izquierda>
           <strong>¿Qué llevar?</strong> Sombrero, bloqueador solar, traje de baño, toalla y cámara
@@ -1187,7 +1187,7 @@ function IOL(){
              luego descienda al histórico y colorido Valle de Orosi donde tendrá la oportunidad de visitar la iglesia más antigua de Costa Rica, la iglesia colonial de Orosi y su pueblo.
           </p>
           <p class="izquierda">
-          <strong>Precio:</strong> $112 por persona
+          <strong>Precio:</strong> $122.69 por persona
           </p>
          <p clase=izquierda>
           <strong>¿Qué llevar?</strong> Zapatos para caminar, binoculares, impermeable y cámara.
@@ -1284,7 +1284,7 @@ function ManuelAntonio(){
 
           </p>
           <p class="izquierda">
-          <strong>Precio:</strong> $135 por persona
+          <strong>Precio:</strong> $156.21 por persona
           </p>
            <p clase=izquierda>
           <strong>¿Qué llevar?</strong> Gorro, bloqueador solar, traje de baño, toalla y cámara.
@@ -1372,7 +1372,7 @@ function PDGS(){
             Aquí, vea de primera mano cómo se construyen y pintan las típicas carretas de bueyes, ¡disfrute comprando los hermosos recuerdos de madera del lugar!
           </p>
           <p class="izquierda">
-          <strong>Precio:</strong> $112 por persona
+          <strong>Precio:</strong> $111.24 por persona
           </p>
           <p clase=izquierda>
           <strong>¿Qué llevar?</strong> Zapatos cómodos, pantalón largo, cámara.
@@ -1469,7 +1469,7 @@ Aprenda cómo los expertos “rompen la taza” usando técnicas para probar o �
 Visita nuestra cafetería, pide y disfruta de la bebida de café de tus sueños. Explore nuestra tienda de fábrica y tienda de regalos y permítanos enviarle algunos recuerdos y café recién hecho a su hogar, donde le recordarán su aventura tropical en Costa Rica.
             </p>
             <p class="izquierda">
-            <strong>Precio:</strong> $76 pp
+            <strong>Precio:</strong> $71.69 pp
             </p>
             <p class=izquierda>
             <strong>¿Qué llevar?</strong
@@ -1558,7 +1558,7 @@ function Vip(){
              Nuestro recorrido en autobús urbano VIP lo llevará de manera cómoda y segura a través de las calles estrechas y concurridas de San José, conduciendo por hermosas atracciones al aire libre de la ciudad. La ciudad viva es nuestro museo.
           </p>
           <p class="izquierda">
-          <strong>Precio:</strong> $76 por persona
+          <strong>Precio:</strong> $75.53 por persona
           </p>
           <p clase=izquierda>
           <strong>¿Qué llevar?</strong> Zapatos cómodos, pantalón largo y cámara
@@ -1659,7 +1659,7 @@ function SeisEnUno(){
           </p>
 
             <p class="izquierda">
-            <strong>Precio:</strong> $150 pp
+            <strong>Precio:</strong> $150.12 pp
             </p>
 
             <p clase=izquierda>
@@ -1754,7 +1754,7 @@ function Tocori(){
           
 
           <p class="izquierda">
-          <strong>Precio:</strong> $125 por persona
+          <strong>Precio:</strong> $144.64 por persona
           </p>
 
           <p clase=izquierda>
@@ -1851,7 +1851,7 @@ function CincoEnUno(){
           
 
            <p class="izquierda">
-           <strong>Precio:</strong> $65 por persona
+           <strong>Precio:</strong> $106.92 por persona
            </p>
 
            <p clase=izquierda>
@@ -1990,7 +1990,7 @@ function TortugaJaco(){
             
 
             <p class="izquierda">
-            <strong>Precio:</strong> $136 pp
+            <strong>Precio:</strong> $155.82 pp
             </p>
 
             <p clase=izquierda>
