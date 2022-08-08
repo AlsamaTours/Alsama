@@ -499,7 +499,7 @@ function canopy(){
               Walking trails lead visitors deep into the rainforest floor. Passengers will be strapped in safe top-quality gear specifically designed for this canopy tour.
             </p>
             <p class="izquierda">
-            <strong>Price:</strong> $96 pp
+            <strong>Price:</strong> $86.4 pp
             </p>
 
             <p class=izquierda>
@@ -590,7 +590,7 @@ function combo(){
             </p>
              </p>
              <p class="izquierda">
-            <strong>Price:</strong> $149 pp
+            <strong>Price:</strong> $172.41 pp
             </p>
 
             <p class=izquierda>
@@ -687,7 +687,7 @@ function pacuare(){
               Located in the Caribbean of Costa Rica, the Pacuare River confines the Mountain of Talamanca, the home to the native Indians of Cabecar and an immense variety of flora and fauna. Once in the river you will go 16 miles on the Heart of the rainforest, observing cascades, birds and the diversity of Flora.
             </p>
             <p class="izquierda">
-            <strong>Price:</strong> $99 pp
+            <strong>Price:</strong> $122.19 pp
             </p>
             <p class=izquierda>
             <strong>What to bring?</strong>  Extra clothes, repellent, comfortable shoes, towel, sweater.
@@ -773,7 +773,7 @@ function at(){
               At the hot springs near the volcano, relax in the natural heating jacuzzis, full of healthy minerals, or enjoy the additional services offered by the award-winning Tabacon Grand Spa & Thermal Resort or Baldi Hot Springs.
             </p>
             <p class="izquierda">
-            <strong>Price:</strong> $162 pp
+            <strong>Price:</strong> $167.74 pp
             </p>
             <p class=izquierda>
             <strong>What to bring?</strong>    Hat, sunscreen, swimming suit, towel and camera
@@ -852,7 +852,7 @@ function aereal(){
               This little-known world has incredible beauty and extraordinary biological diversity. The “Gondola” (Aerial Tram) Tour is a modified “Ski Lift'' that covers a distance of 2.6 kilometers through the Costa Rica rainforest. The tour lasts approximately 90 minutes. Visitors will see the different levels of a rainforest, specifically the most difficult level to reach until recently and the least scientifically known part of the forest, the canopy (the tree tops). This course is very secure and very quiet allowing visitors to listen to the many different sounds of the rainforest.
             </p>
             <p class="izquierda">
-            <strong>Price:</strong> $107 pp
+            <strong>Price:</strong> $115.71 pp
             </p>
              <p class=izquierda>
             <strong>What to bring?</strong>   Walking shoes, binoculars, raincoat and camera.
@@ -937,7 +937,7 @@ function tortuguero(){
                We will leave early and travel through the Braulio Carrillo National Park where we will pass mountains covered by dense forests as well as numerous rivers and waterfalls until we arrive at the Caribbean of Costa Rica. Here, we will cross the banana plantations to board the boat to sail to Tortuguero National Park.
             </p>
             <p class="izquierda">
-            <strong>Price:</strong> $140 pp
+            <strong>Price:</strong> $146.63 pp
             </p>
             <p class=izquierda>
             <strong>What to bring?</strong>   Comfortable shoes, repellent, hat, binoculars, extra clothes and camera
@@ -1023,7 +1023,7 @@ function Folk(){
                During our visit, the local artisans will exhibit their unique and exquisite creations that represent the different regions of the country. The evening culminates with the traditional masquerade extravaganza and a lively fireworks show. Do not miss this unforgettable experience!
             </p>
             <p class="izquierda">
-            <strong>Price:</strong> $70 pp
+            <strong>Price:</strong> $85.32 pp
             </p> 
           <p class=izquierda>
             <strong>What to bring?</strong>    Comfortable shoes, long pants, and camera.
@@ -1108,7 +1108,7 @@ function TortugaIsland(){
                Includes: transportation, guide, light breakfast, cruise, tropical fruits, refreshments, live music and lunch. Bring: light clothing, bathing suit, towel, sunscreen lotion, hat, and camera.
             </p>
             <p class="izquierda">
-            <strong>Price:</strong> $135 pp
+            <strong>Price:</strong> $145.03 pp
             </p>
             <p class=izquierda>
             <strong>What to bring?</strong>    Hat, sunblock, swimming suit, towel and camera
@@ -1191,7 +1191,7 @@ function IOL(){
                then descend to the historic and colorful Valley of Orosi where you will have the opportunity to visit the oldest church of Costa Rica, the Colonial church of Orosi, and its town.
             </p>
             <p class="izquierda">
-            <strong>Price:</strong> $112 pp
+            <strong>Price:</strong> $122.69 pp
             </p>
            <p class=izquierda>
             <strong>What to bring?</strong>    Walking shoes, binoculars, raincoat and camera
@@ -1288,7 +1288,7 @@ function ManuelAntonio(){
 
             </p>
             <p class="izquierda">
-            <strong>Price:</strong> $135 pp
+            <strong>Price:</strong> $156.21 pp
             </p>
              <p class=izquierda>
             <strong>What to bring?</strong>  Hat, sun block, swimming suit, towel and camera.
@@ -1376,7 +1376,7 @@ function PDGS(){
               Here, see first-hand how typical oxcarts are built and painted, indulge in buying the local’s beautiful wood souvenirs!
             </p>
             <p class="izquierda">
-            <strong>Price:</strong> $112 pp
+            <strong>Price:</strong> $111.24 pp
             </p>
             <p class=izquierda>
             <strong>What to bring?</strong>   Comfortable shoes, long pants, y camera.
@@ -1473,7 +1473,7 @@ function Cooffee(){
               Visit our coffee bar, order and enjoy the coffee beverage of your dreams. Browse our factory store and gift shop and allow us to ship some souvenirs and fresh coffee back to your home where they will remind you of your Costa Rican tropical adventure.
             </p>
             <p class="izquierda">
-            <strong>Price:</strong> $76 pp
+            <strong>Price:</strong> $71.69 pp
             </p>
             <p class=izquierda>
             <strong>What to bring?</strong>   Comfortable shoes, long pants, and camera.
@@ -1561,7 +1561,7 @@ function Vip(){
                Our VIP City Bus tour will take you comfortably and safely through San Jose's narrow and busy streets driving by beautiful outdoor city attractions. The living city is our museum.
             </p>
             <p class="izquierda">
-            <strong>Price:</strong> $76 pp
+            <strong>Price:</strong> $75.53 pp
             </p>
             <p class=izquierda>
             <strong>What to bring?</strong>  Comfortable shoes, long pants, y cámara
@@ -1662,7 +1662,7 @@ function SeisEnUno(){
             </p>
 
             <p class="izquierda">
-            <strong>Price:</strong> $150 pp
+            <strong>Price:</strong> $150.12 pp
             </p>
 
             <p class=izquierda>
@@ -1757,7 +1757,7 @@ function Tocori(){
             
 
             <p class="izquierda">
-            <strong>Price:</strong> $125 pp
+            <strong>Price:</strong> $144.64 pp
             </p>
 
             <p class=izquierda>
@@ -1854,7 +1854,7 @@ function CincoEnUno(){
            
 
             <p class="izquierda">
-            <strong>Price:</strong> $65 pp
+            <strong>Price:</strong> $106.92 pp
             </p>
 
             <p class=izquierda>
@@ -1985,7 +1985,7 @@ function TortugaJaco(){
             
 
             <p class="izquierda">
-            <strong>Price:</strong> $136 pp
+            <strong>Price:</strong> $155.82 pp
             </p>
 
             <p class=izquierda>
