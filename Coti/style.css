@@ -77,11 +77,32 @@ display: none;
 
   text-align: left;
 }
+table td.service,
+table td.desc {
+  vertical-align: top;
+  font-size: 0.8em;
+}
+
+table td.unit,
+table td.qty,
+table td.total {
+  font-size: 0.8em;
+}
 }
 
 @media only screen 
 and (min-device-width : 1024px) 
 { 
+  table td.service,
+table td.desc {
+  vertical-align: top;
+}
+
+table td.unit,
+table td.qty,
+table td.total {
+  font-size: 1.2em;
+}
   .card-header{
     margin-bottom: 40px;
   }
@@ -192,16 +213,7 @@ table td {
 
 }
 
-table td.service,
-table td.desc {
-  vertical-align: top;
-}
 
-table td.unit,
-table td.qty,
-table td.total {
-  font-size: 1.2em;
-}
 
 table td.grand {
   border-top: 1px solid #5D6975;;
