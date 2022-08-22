@@ -2,116 +2,106 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="../img/logo.jpg">
     <title>Facturas</title>
     <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
   
     <link rel="stylesheet" href="style.css" media="all" />
+    <script defer src="opera.js"></script>
   </head>
   <body>
+        <div id="task-form">
+          <form>
+            <input type="text" id = "task-id" class="form-control" placeholder="id" /><br>
+            <button type="button" class="btn btn-large btn-block btn-default" onclick="BuscarCliente()">Back</button>
+          </form> 
+        </div>
+
+    <div class="container">
+          <div class="card">
+            <div class="card-header">
+                <h1>Factura</h1>
+                <div id="project">
+                  
+                </div>
+                <div class="QrCode">
+                  <img loading="lazy" class="qr" id="qr" src="codigo.png" alt="QR Code" >
+                </div>
+               
+                <div id="company" >
+                  <p>Alsama Tours Costa Rica</p>
+                  <p>Tel: (+506) 6167 2539 </p>
+                  <p>Tel: (+506) 7206 3738</p>
+                  <p>Ced juridica: 3-102-827049</p>
+                  <p><a href="mailto:info@alsamatourscr.com">info@alsamatourscr.com</a></p>
+                </div>
+                
+            </div>
+            <div id="logo" class="logo">
+              <img loading="lazy" class="pr"  src="Logo.jpg" alt="Logo">
+            </div>
 
 
-    <div id="task-form">
-      <form>
-        <input type="text" id = "task-id" class="form-control" placeholder="id" /><br>
-        <button type="button" class="btn btn-large btn-block btn-default" onclick="BuscarCliente()">button</button>
-      </form>
-      
-    </div>
+                <div class="table-responsive-sm">
+                    <table class="table table-striped">
+                    <thead>
+                      <tr id="task-Superior">
+                        
+                      </tr>
+                    </thead>
+                    <tbody id="Servicios">
+                        
+                    </tbody>
+
+                  </table> 
+
+                <div class="col-sm-6 telPol">
+                  <h3>Politicas</h3>
+                
+                  <p>Cancelaciones:<br> 
+                  Todas las cancelaciones deben enviarse por escrito y deben recibir confirmación por escrito de nuestra empresa para que se considere vigente.</p> 
+                  <p>No shows:<br> Si no se presenta se cobrará el valor total del 100% de la reserva.</p> 
+                  <p>Cambios<br>  Cuando se realizan cambios en el último minuto (después de que un viaje ha sido confirmado y garantizado), verifique la disponibilidad.</p>
+                </div>
+                <div class="col-sm-6 telPol2">
+                  <h3>Politics</h3>
+                
+                  <p>Cancellations:<br> 
+                  All cancellations must be sent in writing and must receive confirmation in writing from our company for it to be considered as in effect.</p> 
+                  <p>No shows:<br> are charged the full 100% value of the reservation.</p> 
+                  <p>Change Fee:<br> When changes are made at the last minute (after a trip has been confirmed and guaranteed), check for availability.</p>
+                </div>
+                </div>
+        </div><!--Cart-->
+      </div><!--Contaniner-->
 
     
-    
-    <div class="Fact" id="Fact">
-    <header class="clearfix">
-       <div id="logo" class="logo">
-        <img loading="lazy" class="qr" id="qr" src="codigo.png" >
-        <img loading="lazy" class="pr"  src="logo.png">
-      </div>
 
-      
-      <h1>Factura</h1>
-      <div id="company" class="clearfix">
-        <div>Wanderlust</div>
-        <div>Tel: (+506) 6167 2539 </div>
-        <div>Tel: (+506) 7206 3738</div>
-        <div>Ced juridica: 3-102-827049</div>
-        <div><a href="mailto:info@thewanderlustcr.com">info@thewanderlustcr.com</a></div>
-      </div>
-      <div id="project">
-        
-      </div>
-    </header>
-    <main >
-      <table>
-        <thead>
-          <tr id="task-Superior">
-            
-          </tr>
-        </thead>
-        <tbody id="Servicios">
-            
-        </tbody>
-        <tfooter>
-          <br><br>
-          <div class="Politicas">
-           <h3>Politicas</h3>
-          
-            <p>Cancelaciones:<br> 
-            Todas las cancelaciones deben enviarse por escrito y deben recibir confirmación por escrito de nuestra empresa para que se considere vigente.</p> 
-            <p>No shows:<br> Si no se presenta se cobrará el valor total del 100% de la reserva.</p> 
-            <p>Cambios<br>  Cuando se realizan cambios en el último minuto (después de que un viaje ha sido confirmado y garantizado), verifique la disponibilidad.</p>
-          </div>
-          <div class="Politics">
-           <h3>Politics</h3>
-          
-            <p>Cancellations:<br> 
-            All cancellations must be sent in writing and must receive confirmation in writing from our company for it to be considered as in effect.</p> 
-            <p>No shows:<br> are charged the full 100% value of the reservation.</p> 
-            <p>Change Fee:<br> When changes are made at the last minute (after a trip has been confirmed and guaranteed), check for availability.</p>
-          </div>
-          
-          
-      
-          </tfooter>
-      </table>
-      
-    </main>
-    
-  </div>
-  <button  class="btn-download" onclick="Dowload()">Download PDF  </button>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-firestore.js"></script>
 
- 
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-analytics.js"></script>
 
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-firestore.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-analytics.js"></script>
-
-<script>
-  var firebaseConfig = {
-  apiKey: "AIzaSyC7li0b3vgufnxB4yskqibfr8_EDELyTo4",
-  authDomain: "the-wanderlust-97939.firebaseapp.com",
-  projectId: "the-wanderlust-97939",
-  storageBucket: "the-wanderlust-97939.appspot.com",
-  messagingSenderId: "689355854417",
-  appId: "1:689355854417:web:3a6b41066ff2890e969e70",
-  measurementId: "G-SY3SNVZ68Z"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-</script>
-
-<script src="jspdf.debug.js"></script>
-<script src="html2canvas.min.js"></script>
-<script src="html2pdf.min.js"></script>
+    <script>
+      var firebaseConfig = {
+      apiKey: "AIzaSyC7li0b3vgufnxB4yskqibfr8_EDELyTo4",
+      authDomain: "the-wanderlust-97939.firebaseapp.com",
+      projectId: "the-wanderlust-97939",
+      storageBucket: "the-wanderlust-97939.appspot.com",
+      messagingSenderId: "689355854417",
+      appId: "1:689355854417:web:3a6b41066ff2890e969e70",
+      measurementId: "G-SY3SNVZ68Z"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
 
 
-   <script type="text/javascript" src="opera.js"></script>
-   
   </body>
   
 </html>

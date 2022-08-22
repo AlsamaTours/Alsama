@@ -15,9 +15,10 @@ var exite = 1;
 var ID = document.getElementById('task-id').value;
 
 window.addEventListener('DOMContentLoaded',(e)=>{
-   document.getElementById('task-id').style.display = 'none';
+    document.getElementById('task-id').style.display = 'none';
     var name = window.location.href;
-    name = nombre.split('?')[1];
+    name = name.split('#')[1];
+    console.log(name);
 
     document.getElementById('task-id').value = name;
     btn.style.display = "none";
@@ -43,11 +44,6 @@ const options = {
     orientation: 'portrait' 
   }
 }
-function Dowload(){
-
-  const element = document.getElementById('Fact');
-  html2pdf().from(element).set(options).save();
-}
 
 
 
@@ -65,7 +61,7 @@ function printDiv(divName) {
 function generateQr(){
     document.getElementById('qr').style.display = 'block';
     let size = "1000x1000";
-    let data = "'https://www.thewanderlustcr.com/Coti/index.html?"+document.getElementById('task-id').value ;
+    let data = "https://www.alsamatourscr.com/Coti/index.html?"+document.getElementById('task-id').value ;
     let baseURL = "https://api.qrserver.com/v1/create-qr-code/";
     let url = `${baseURL}?data=${data}&size=${size}`;
 
@@ -119,14 +115,14 @@ async function Busqueda(){
     onGetTask2 ((querySnapshot)=>{
                 querySnapshot.forEach(doc=>{
                     if(doc.data().Tours == ID){
-                        project.innerHTML = `<div><span>Servicio</span> Tours and shuttles</div>
-                        <div><span>CLIENT</span> ${doc.data().Name}</div>
-                        <div><span>Niños</span> ${doc.data().Nino}</div>
-                        <div><span>Adultos</span> ${doc.data().Adulto}</div>`;
+                        project.innerHTML = `<p><span>Servicio</span> Tours and shuttles</p>
+                        <p><span>CLIENT</span> ${doc.data().Name}</p>
+                        <p><span>Niños</span> ${doc.data().Nino}</p>
+                        <p><span>Adultos</span> ${doc.data().Adulto}</p>`;
                         if(doc.data().estado == true){
-                             project.innerHTML += `<div><span>Estado</span>Aceptado</div>`;
+                             project.innerHTML += `<p><span>Estado</span>Aceptado</p>`;
                         }else{
-                             project.innerHTML += `<div><span>Estado</span>Cancelado</div>`;
+                             project.innerHTML += `<p><span>Estado</span>Cancelado</p>`;
                         }
                         Adulto = doc.data().Adulto;
                         Ninos = doc.data().Nino;
@@ -147,7 +143,8 @@ async function Aceptado(){
          await onGetTask();
     }catch(error){
         console.log(error);
-    window.location.href = 'https://www.thewanderlustcr.com/index.html';
+        
+    window.location.href = '../index.html';
     }
    
      onGetTask((querySnapshot) =>{
