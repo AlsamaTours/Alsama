@@ -1,0 +1,144 @@
+
+body {
+    background-image: url("../img/backgroundQR.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+  }
+html{
+    scroll-behavior: auto;
+    scroll-behavior: smooth;
+  }
+  @media only screen 
+and (max-device-width : 1024px)  { 
+    .Top{
+        margin-top: 50px;
+        height: 20%;
+        width: 100%;
+    }
+    .Logo{
+        background-color: transparent;
+        width: 20%;
+        height: 20%;
+        float: left;
+        vertical-align: auto;
+    }
+    .Logo img{
+        width: 100%;
+        height: 100%;
+    }
+    .DerechaN{
+        float: left;
+        width: 78%;
+        height: 20%;
+        margin-left: 2%;
+    }
+    
+    .Nombre{
+    height: 50%;
+    }
+    .icono{
+        height: 50%;
+    }
+    .icono img{
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 10%;
+        height: 30%;
+    }
+    
+    .Nombre h1{
+        background-color: transparent;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 18px;
+        color: white;
+        text-shadow: rgb(0 0 0 / 25%) 0px 0.5px 1px;
+        font-weight: 800;
+    }
+}
+@media only screen 
+and (min-device-width : 1024px)  { 
+    .Top{
+        margin-left: auto;
+        margin-top: 50px;
+        height: 20%;
+        width: 60%;
+    }
+    .Logo{
+        background-color: transparent;
+        width: 15%;
+        height: 15%;
+        float: left;
+        vertical-align: auto;
+    }
+    .Logo img{
+        width: 100%;
+        height: 100%;
+    }
+    .DerechaN{
+        float: left;
+        width: 78%;
+        height: 20%;
+        margin-left: 2%;
+    }
+    
+    .Nombre{
+    height: 50%;
+    }
+    .icono{
+        height: 50%;
+    }
+    .icono img{
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 10%;
+        height: 30%;
+    }
+    
+    .Nombre h1{
+        background-color: transparent;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 18px;
+        color: white;
+        text-shadow: rgb(0 0 0 / 25%) 0px 0.5px 1px;
+        font-weight: 800;
+    }
+}
+
+
+.Botones{
+ margin-top: 50px;
+}
+.ContBtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.boton {
+    line-height: 50px;
+    background-color: #5199AE; 
+    border: 2px solid white;
+    color: white;
+    width: 70%;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+.ContBtn a{
+    text-decoration: none;
+}
+
+.ContBtn a :hover{
+    text-decoration: none;
+    color: #73d1ee; 
+    
+}
