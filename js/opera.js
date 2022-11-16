@@ -2059,7 +2059,6 @@ function inicio(){ //Se guarda tdo menos los tours
 
 
 
-  trans.innerHTML = ``;
   taskForm.style.display = "block";
   taskForm.innerHTML =`               
 
@@ -2375,10 +2374,6 @@ async  function NameUrl(){
         combo();
     }else if(NombreService == "Transport"){
         Trasnport();//
-    }else if(NombreService == "ToursSanJose"){
-        inicio();
-    }else if(NombreService == "ToursJaco"){
-        inicio();
     }else if(NombreService == "RentaCar"){
         rentACar();
     }else if(NombreService == "Packages"){
@@ -2389,7 +2384,18 @@ async  function NameUrl(){
         CincoEnUno();
     }else if(NombreService == "Tocori"){
         Tocori();
-    }else{
+    }else if(NombreService == "ToursSanJose"){
+      inicio()
+        Sanjose();
+    
+      
+      Sanjose();
+    }else if(NombreService == "ToursJaco"){
+      inicio()
+        Jaco();
+      
+    }
+    else{
         inicio();
     }
 

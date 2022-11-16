@@ -106,3 +106,11 @@ window.addEventListener('DOMContentLoaded', async (e) =>{	//DOMContentLoaded
 
 
 })
+
+function SanJoseToursPDF(){
+    window.location.href= "One%20Day%20Tours.pdf";
+  }
+  
+  function JacoToursPDF(){
+    window.location.href= "Jaco%20One%20Day%20Tours.pdf";
+  }
