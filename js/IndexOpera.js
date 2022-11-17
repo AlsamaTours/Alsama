@@ -120,7 +120,7 @@ const form  = document.getElementById('BtmForm');
 
 form.addEventListener('click', function(e) {
     e.preventDefault();
-    const BodyEmail = "New posible cx, please make in touch with the cx as soon as possible"+'\n'+"Email: "+ document.getElementById('email').value
+    const BodyEmail = "<div>New posible cx, please get in touch with the cx as soon as possible</div>"+'\n'+"<div>Email: "+ document.getElementById('email').value+"</div>"
     Email.send({
         Host : "smtp.elasticemail.com",
         Port: 2525,
