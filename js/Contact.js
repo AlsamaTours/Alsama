@@ -1,6 +1,6 @@
-const form  = document.getElementById('BtmForm');
+const form  = document.getElementById('Form');
 
-form.addEventListener('click', function(e) {
+form.addEventListener('submit', function(e) {
     e.preventDefault();
     const BodyEmail = "<div>New posible cx, please get in touch with the cx as soon as possible</div>"+'\n'+
     "<div>Email: "+ document.getElementById('email').value+"</div>"+
@@ -21,13 +21,7 @@ form.addEventListener('click', function(e) {
         Body : BodyEmail
     }).then( function(){
         toastr.info("Thank you for get in touch with us, an agent will contact you as soon as possible" +'\n'+"Gracias por ponerse en contacto con nosotros, un agente lo esta contactando tan pronto sea posible")
-        document.getElementById('email').value = " ";
-        document.getElementById('name').value = " ";
-        document.getElementById('Pick').value = " ";
-        document.getElementById('Drop').value = " ";
-        document.getElementById('start').value = " ";
-        document.getElementById('number').value = " ";
-        document.getElementById('Description').value = " ";
+        form.reset();
 
     }
     ).catch((error) => {
