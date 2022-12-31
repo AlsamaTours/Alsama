@@ -168,7 +168,7 @@ today = yyyy+'-'+mm+'-'+dd;
       <div id="PrivateTour">
       <div class="Tit-Shut">
       <h2>Private Tours</h2>
-      <p>4% Value Added Taxes (VAT), must be summed up to all rates from July 2021 to July 2022 </p> 
+      <p>8% Value Added Taxes (VAT), must be summed up to all rates from July 2021 to July 2022 </p> 
       <p>H1 max 5 pax  -  Hiace max 10 pax </p> 
     </div>
     
@@ -336,7 +336,7 @@ today = yyyy+'-'+mm+'-'+dd;
     <div id="PrivateTrans">
       <div class="Tit-Shut">
       <h2>Private Transport</h2>
-      <p>4% Value Added Taxes (VAT), must be summed up to all rates from July 2021 to July 2022 </p> 
+      <p>8% Value Added Taxes (VAT), must be summed up to all rates from July 2021 to July 2022 </p> 
       <p>H1 max 5 pax  -  Hiace max 10 pax </p> 
     </div>
     
