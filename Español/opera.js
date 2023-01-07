@@ -164,7 +164,7 @@ function Trasnport(){
       <div id="PrivateTour">
       <div class="Tit-Shut">
       <h2>Tours Privados</h2>
-      <p>El 4% de impuesto al valor agregado (IVA), debe sumarse a todas las tarifas desde Julio 2021 hasta Julio 2022</p> 
+      <p>El 8% de impuesto al valor agregado (IVA), debe sumarse a todas las tarifas desde Julio 2021 hasta Julio 2022</p> 
       <p>H1 max 5 pasajeros  -  Hiace max 10 pasajeros </p> 
     </div>
     
@@ -332,7 +332,7 @@ function Trasnport(){
     <div id="PrivateTrans">
       <div class="Tit-Shut">
       <h2>Transporte Privado</h2>
-      <p>El 4% de impuesto al valor agregado (IVA), debe sumarse a todas las tarifas desde Julio 2021 hasta Julio 2022 </p> 
+      <p>El 8% de impuesto al valor agregado (IVA), debe sumarse a todas las tarifas desde Julio 2021 hasta Julio 2022 </p> 
       <p>H1 max 5 pasajeros  -  Hiace max 10 pasajeros </p> 
     </div>
     
