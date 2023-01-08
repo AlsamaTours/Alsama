@@ -16,7 +16,7 @@ form.addEventListener('submit', function(e) {
         Username : "automaticosemails@gmail.com",
         Password : "827486E87EEDF8DC4246B3C76AC5CE9CBF18",
         To : 'automaticosemails@gmail.com',
-        From : "Email: "+ document.getElementById('email').value,
+        From : "jeaustin.rdz@gmail.com",
         Subject : "Email from a new possible cx",
         Body : BodyEmail
     }).then( function(){
