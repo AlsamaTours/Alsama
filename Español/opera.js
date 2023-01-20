@@ -9,6 +9,7 @@ popup = document.getElementById('popup'),
 btnCerrarpopup = document.getElementById('btn-cerrar-popup');
 
 function Pack(){
+  document.getElementById('FormToSent').style.display = 'block';
     let today = new Date();
     let dd = today.getDate();
     let mm = today.getMonth() + 1;
@@ -31,42 +32,6 @@ function Pack(){
         <h2>Permítanos crear un itinerario personalizado para usted.</h2>
         <p>Háganos saber los detalles y nos pondremos en contacto con usted pronto </p>
       </div>
-
-
-      <form action="https://formsubmit.co/info@thewanderlustcr.com" method="POST">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://www.thewanderlustcr.com/#Exito">
-        <div class="form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:3" data-msg="Please enter at least 4 chars"required />
-              <div class="validation"></div>
-            </div>
-        <div class="form-group">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Correo" data-rule="email" data-msg="Please enter a valid email" required/>
-              <div class="validation"></div>
-            </div>
-         <div class="form-group">
-              <input type="text" class="form-control" name="Pick" id="Pick" placeholder="Hotel de recogida" data-rule="minlen:4"  data-msg="Please enter a valid Pick up place" required/>
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <input type="number" class="form-control" name="Days" id="Drop" placeholder="Cuanto tiempo estaras en el pais?" data-msg="Please enter a valid number" required/>
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <input type="date" class="form-control" name="Date" id="start" data-rule="date"  data-msg="Please enter a valid date" required/>
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <input type="number" class="form-control" name="number" id="number" placeholder="Pasajeros" data-rule="numer"  data-msg="Please enter a valid date" required/>
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <textarea type="text" class="form-control" name="Description" id="Description" placeholder="Que actividades buscas hacer?" data-rule="minlen:4"  data-msg="Please enter a valid description" required></textarea>
-              <div class="validation"></div>
-            </div>
-
-       <div class="text-center" id="confirmacion"><button type="submit" class="btn btn-primary btn-lg">Enviar</button></div>
-    </form>
       <!--/.row-->
     </div>
     <!--/.container-->
@@ -76,6 +41,7 @@ function Pack(){
 }
 
 function rentACar(){
+  document.getElementById('FormToSent').style.display = 'block';
     var today = new Date();
     var dd = today.getDate();
     var mm = today.getMonth()+1;
@@ -98,38 +64,6 @@ function rentACar(){
         <h2>Enceuntra tu carro ideal </h2>
         <p>Háganos saber los detalles y nos pondremos en contacto con usted pronto  </p>
       </div>
-
-
-      <form action="https://formsubmit.co/info@thewanderlustcr.com" method="POST">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://www.thewanderlustcr.com/#Exito">
-        <div class="form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:3" data-msg="Please enter at least 4 chars"required />
-              <div class="validation"></div>
-            </div>
-        <div class="form-group">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Correo" data-rule="email" data-msg="Please enter a valid email" required/>
-              <div class="validation"></div>
-            </div>
-         <div class="form-group">
-              <input type="text" class="form-control" name="Pick" id="Pick" placeholder="Hotel de recogida" data-rule="minlen:4"  data-msg="Please enter a valid Pick up place" required/>
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="Drop" id="Drop" placeholder="Automatico / Manual / Ambos " data-rule="minlen:3"   data-msg="Please enter a valid Drop off place" required/>
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <input type="date" class="form-control" name="Date" id="start"  data-rule="date"  data-msg="Please enter a valid date" required/>
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <input type="number" class="form-control" name="number" id="number" placeholder="Pasajeros" data-rule="numer"  data-msg="Please enter a valid date" required/>
-              <div class="validation"></div>
-            </div>
-
-       <div class="text-center" id="confirmacion"><button type="submit" class="btn btn-primary btn-lg">enviar</button></div>
-    </form>
       <!--/.row-->
     </div>
     <!--/.container-->
@@ -139,6 +73,7 @@ function rentACar(){
 }
 
 function Trasnport(){
+  document.getElementById('FormToSent').style.display = 'block';
     var today = new Date();
     var dd = today.getDate();
     var mm = today.getMonth()+1;
@@ -270,38 +205,6 @@ function Trasnport(){
         <h2>Shuttle</h2>
         <p>Déjanos saber los detalles y nos pondremos en contacto contigo pronto </p>
       </div>
-
-
-      <form action="https://formsubmit.co/info@thewanderlustcr.com" method="POST">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://www.thewanderlustcr.com/#Exito">
-        <div class="form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:3" data-msg="Please enter at least 4 chars"required />
-              <div class="validation"></div>
-            </div>
-        <div class="form-group">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Correo" data-rule="email" data-msg="Please enter a valid email" required/>
-              <div class="validation"></div>
-            </div>
-         <div class="form-group">
-              <input type="text" class="form-control" name="Pick" id="Pick" placeholder="Hotel de recogida" data-rule="minlen:4"  data-msg="Please enter a valid Pick up place" required/>
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="Drop" id="Drop" placeholder="Hotel de dejada" data-rule="minlen:4"   data-msg="Please enter a valid Drop off place" required/>
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <input type="date" class="form-control" name="Date" id="start" placeholder="Drop off" data-rule="date"  data-msg="Please enter a valid date" required/>
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <input type="number" class="form-control" name="number" id="number" placeholder="Pasajeros" data-rule="numer"  data-msg="Please enter a valid date" required/>
-              <div class="validation"></div>
-            </div>
-
-       <div class="text-center" id="confirmacion"><button type="submit" class="btn btn-primary btn-lg">Enviar</button></div>
-    </form>
       <!--/.row-->
     </div>
     <!--/.container-->
@@ -467,7 +370,7 @@ function Trasnport(){
   </tbody>
 </table>
   <br>
-  <a class="btn btn-primary btn-lg" href="Contacto.html">Reservar</a>
+
     </div>`;
 
     document.getElementById('PrivateTour').style.display = 'none';
@@ -2161,6 +2064,7 @@ function JacoToursPDF(){
 
 
 function inicio(){ //Se guarda tdo menos los tours
+    document.getElementById('FormToSent').style.display = 'none';
   trans.innerHTML = ``;
   taskForm.style.display = "block";
   taskForm.innerHTML =`               
@@ -2404,11 +2308,13 @@ trans.addEventListener('click' , (e)=>{ //Se hace un target para diferenciar de 
 })
 
 function BuscarCoti(){
+  document.getElementById('FormToSent').style.display = 'none';
     console.log("Redirigiendo");
     window.location.href="/Coti/index.html#"+document.getElementById('name').value;
 }
 //hashchange
 window.addEventListener('hashchange',async (e)=>{
+  document.getElementById('FormToSent').style.display = 'none';
     let nombre = await URlPage();
     const NombreService = nombre.split('#')[1];
     console.log("hash");
@@ -2461,6 +2367,7 @@ async  function name(){
 }
 
 window.addEventListener('DOMContentLoaded', async (e) =>{	//DOMContentLoaded
+  document.getElementById('FormToSent').style.display = 'none';
     name(); //Cargar la pagina depende de que URL sea pues no se usa php
 })
 
