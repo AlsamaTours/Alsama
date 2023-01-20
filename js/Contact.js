@@ -1,6 +1,7 @@
 const form  = document.getElementById('Form');
 
-function SentEmail() {
+form.addEventListener('submit', function(e) {
+    e.preventDefault();
     const BodyEmail = "<div>New posible cx, please get in touch with the cx as soon as possible</div>"+'\n'+
     "<div>Email: "+ document.getElementById('email').value+"</div>"+
     "<div>name: "+ document.getElementById('name').value+"</div>"+
@@ -21,7 +22,6 @@ function SentEmail() {
     }).then( function(){
          toastr.info("Thank you for get in touch with us, an agent will contact you as soon as possible" +'\n'+"Gracias por ponerse en contacto con nosotros, un agente lo esta contactando tan pronto sea posible")
          form.reset();
-
     }
     ).catch((error) => {
         alert(error);

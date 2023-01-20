@@ -164,24 +164,7 @@
       </div>
     </div>
   </div>
-<!--
-    <div class="carousel">
-      <div class="slides">
-        <img src="img/Coffe/Coffee.jpg" alt="slide image" class="slide">
-        <img src="img/Coffe/Coffee2.jpg" alt="slide image" class="slide">
-        <img src="img/Coffe/Coffee.jpg" alt="slide image" class="slide">
-      </div>
-      <div class="controls">
-        <div class="control prev-slide">&#9668;</div>
-        <div class="control next-slide">&#9658;</div>
-        </div>
-      </div>
--->
-
-
   <div id="Transport" class="hero"></div>
-
-
   <div class="container">
     <div class="row">
       <div class="grid">
@@ -195,6 +178,49 @@
           <div  id="trans">
             <!--Aqui-->
             <!--Aqui-->
+          </div>
+          <div id="FormToSent">
+            <section id="contact-page">
+              <div class="container">
+          
+          
+                <form method="post" id="Form">
+                  <input type="hidden" name="_captcha" value="false">
+                  <div class="form-group">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:3" data-msg="Please enter at least 4 chars"required />
+                        <div class="validation"></div>
+                      </div>
+                  <div class="form-group">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" required/>
+                        <div class="validation"></div>
+                      </div>
+                   <div class="form-group">
+                        <input type="text" class="form-control" name="Pick" id="Pick" placeholder="Pick up" data-rule="minlen:4"  data-msg="Please enter a valid Pick up place" required/>
+                        <div class="validation"></div>
+                      </div>
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="Drop" id="Drop" placeholder="Drop off" data-rule="minlen:4"   data-msg="Please enter a valid Drop off place" required/>
+                        <div class="validation"></div>
+                      </div>
+                      <div class="form-group">
+                        <input type="date" class="form-control" name="Date" id="start" placeholder="Drop off" data-rule="date"  data-msg="Please enter a valid date" required/>
+                        <div class="validation"></div>
+                      </div>
+                      <div class="form-group">
+                        <input type="number" class="form-control" name="number" id="number" placeholder="PAX" data-rule="date"  data-msg="Please enter a valid number" required/>
+                        <div class="validation"></div>
+                      </div>
+                      <div class="form-group">
+                        <textarea type="text" class="form-control" name="Description" id="Description" placeholder="Description" data-rule="minlen:4"  data-msg="Please enter a valid description" required></textarea>
+                        <div class="validation"></div>
+                      </div>
+          
+                      <div class="text-center" id="confirmacion"><button onclick="SentEmail()" id="BtmForm" class="btn btn-primary btn-lg">Send</button></div>
+              </form>
+                <!--/.row-->
+              </div>
+              <!--/.container-->
+            </section>
           </div>
         </div>
       </div>
@@ -272,10 +298,10 @@
   <script src="js/functions.js"></script>
   <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script src="js/Contact.js"></script>
+ 
   
  
 <script type="text/javascript" src="js/opera.js"></script>
-<script src="js/SliderRes.js"></script>
 
 
 </body>

@@ -14,6 +14,7 @@ function ContactForm(){
 }
 
 function Pack(){
+  document.getElementById('FormToSent').style.display = 'block';
   location.href = "#aqui";
     let today = new Date();
     let dd = today.getDate();
@@ -30,55 +31,23 @@ today = yyyy+'-'+mm+'-'+dd;
 
   taskForm.innerHTML = ``;
    trans.innerHTML = ``;
-   /*trans.innerHTML = `<section id="contact-page">
-    <div class="container">
-      <div class="center">
 
-        <h2>Let us create a personalized itinerary for you </h2>
-        <p>Let us know the details and we will contact you soon </p>
-      </div>
-      <div class="center">
-        <p>Please contact us and we can create a perfect schedule for you and your family</p>
-      </div>
-
-      <div class="text-center" id="confirmacion"><button type="submit" onclick="ContactForm()" class="btn btn-primary btn-lg">Contact with us</button></div>
-      
-      <!--/.row-->
-    </div>
-    <!--/.container-->
-  </section>`;*/
   trans.innerHTML = `
-  <section id="hero2" class="hero2">
-    <div class="container">
-      <div class="row">
-        <div class="Centro">
-          <div class="keep">
-            <div class="Cuadrado2">
-              <div class="center">
-
-                  <h2>Let us create a personalized itinerary for you </h2>
-                  <p>Let us know the details and we will contact you soon </p>
-                </div>
-        
-                <div class="text-center" id="confirmacion">
-                  <button type="submit" onclick="ContactForm()" class="btn btn-primary btn-lg">Contact with us</button>
-                </div>
-              
-               <!--/.row-->
-              </div>
-                
-              
-            </div>      
-          </div>
-        </div>
+  <section id="contact-page">
+  <div class="container">
+    <div class="center">
+    <h2>Let us create a personalized itinerary for you </h2>
+    <p>Let us know the details and we will contact you soon </p>
     </div>
   </div>
-</section>`;
+  </section>
+  `;
   document.getElementById("start").setAttribute("min", today);
     document.getElementById("start").setAttribute("value", today);
 }
 
 function rentACar(){
+  document.getElementById('FormToSent').style.display = 'block';
   location.href = "#aqui";
     var today = new Date();
 var dd = today.getDate();
@@ -95,57 +64,21 @@ today = yyyy+'-'+mm+'-'+dd;
 
   taskForm.innerHTML = ``;
    trans.innerHTML = ``;
-   trans.innerHTML = `<section id="contact-page">
+   trans.innerHTML = `
+   <section id="contact-page">
     <div class="container">
       <div class="center">
-
         <h2>Find your ideal car </h2>
         <p>Let us know the details and we will contact you soon </p>
       </div>
-
-
-      <form method="post" id="Form">
-        <input type="hidden" name="_captcha" value="false">
-        <div class="form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:3" data-msg="Please enter at least 4 chars"required />
-              <div class="validation"></div>
-            </div>
-        <div class="form-group">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" required/>
-              <div class="validation"></div>
-            </div>
-         <div class="form-group">
-              <input type="text" class="form-control" name="Pick" id="Pick" placeholder="Pick up" data-rule="minlen:4"  data-msg="Please enter a valid Pick up place" required/>
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="Drop" id="Drop" placeholder="Drop off" data-rule="minlen:4"   data-msg="Please enter a valid Drop off place" required/>
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <input type="date" class="form-control" name="Date" id="start" placeholder="Drop off" data-rule="date"  data-msg="Please enter a valid date" required/>
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <input type="number" class="form-control" name="number" id="number" placeholder="PAX" data-rule="date"  data-msg="Please enter a valid number" required/>
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <textarea type="text" class="form-control" name="Description" id="Description" placeholder="Description" data-rule="minlen:4"  data-msg="Please enter a valid description" required></textarea>
-              <div class="validation"></div>
-            </div>
-
-            <div class="text-center" id="confirmacion"><button type="submit" id="BtmForm" class="btn btn-primary btn-lg">Send</button></div>
-    </form>
-      <!--/.row-->
     </div>
-    <!--/.container-->
   </section>`;
   document.getElementById("start").setAttribute("min", today);
-    document.getElementById("start").setAttribute("value", today);
+  document.getElementById("start").setAttribute("value", today);
 }
 
 function Trasnport(){
+  document.getElementById('FormToSent').style.display = 'block';
   location.href = "#aqui";
   var today = new Date();
 var dd = today.getDate();
@@ -162,7 +95,8 @@ today = yyyy+'-'+mm+'-'+dd;
 
   taskForm.innerHTML = ``;
    trans.innerHTML = ``;
-  trans.innerHTML +=`<div id="btn-menu" class="btn-menu">
+  trans.innerHTML +=`
+    <div id="btn-menu" class="btn-menu">
        <a class="btn btn-primary btn-lg" href="javascript:void(0); ">Private Transport</a>
        <a class="btn btn-primary btn-lg" href="javascript:void(0);">Private Tours</a>
        <a class="btn btn-primary btn-lg" href="javascript:void(0);">Shuttle</a>
@@ -263,7 +197,7 @@ today = yyyy+'-'+mm+'-'+dd;
 
   </tbody>
 </table>
-<a class="btn btn-primary btn-lg" href="contact.html">Reserve</a>
+
   <br>
   
     </div>
@@ -478,7 +412,7 @@ today = yyyy+'-'+mm+'-'+dd;
   </tbody>
 </table>
   <br>
-  <a class="btn btn-primary btn-lg" href="contact.html">Reserve</a>
+
     </div>`;
 
     document.getElementById('PrivateTour').style.display = 'none';
@@ -486,6 +420,7 @@ today = yyyy+'-'+mm+'-'+dd;
     document.getElementById("start").setAttribute("min", today);
     document.getElementById("start").setAttribute("value", today);
 
+    
 }
 
 function canopy(){
@@ -2063,7 +1998,7 @@ function TortugaJaco(){
 }
 
 function inicio(){ //Se guarda tdo menos los tours
-
+  document.getElementById('FormToSent').style.display = 'none';
 
 
   taskForm.style.display = "block";
@@ -2312,6 +2247,7 @@ function filter(){
 }
 
 function ToursBtn(){
+  document.getElementById('FormToSent').style.display = 'none';
   location.href = "#aqui";
   inicio();
 }
@@ -2341,6 +2277,7 @@ function BuscarCoti(){
 }
 //hashchange
 window.addEventListener('hashchange',async (e)=>{
+  document.getElementById('FormToSent').style.display = 'none';
     let nombre = await URlPage();
     const NombreService = nombre.split('#')[1];
 
@@ -2410,6 +2347,7 @@ async  function NameUrl(){
 
 window.addEventListener('DOMContentLoaded', async (e) =>{	//DOMContentLoaded
   NameUrl(); //Cargar la pagina depende de que URL sea pues no se usa php
+  document.getElementById('FormToSent').style.display = 'none';
 })
 
 function SanJoseToursPDF(){
