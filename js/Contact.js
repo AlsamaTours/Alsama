@@ -26,4 +26,4 @@ function SentEmail() {
     ).catch((error) => {
         alert(error);
       });
-};
+});
