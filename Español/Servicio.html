@@ -179,34 +179,33 @@
               <form method="post" id="Form">
                   <input type="hidden" name="_captcha" value="false">
                   <div class="form-group">
-                      <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:3" data-msg="Please enter at least 4 chars"required />
-                      <div class="validation"></div>
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:3" data-msg="Please enter at least 4 chars"required />
+                    <div class="validation"></div>
+                  </div>
+              <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Correo" data-rule="email" data-msg="Please enter a valid email" required/>
+                    <div class="validation"></div>
+                  </div>
+               <div class="form-group">
+                    <input type="text" class="form-control" name="Pick" id="Pick" placeholder="Hotel de recogida data-rule="minlen:4"  data-msg="Please enter a valid Pick up place" required/>
+                    <div class="validation"></div>
                   </div>
                   <div class="form-group">
-                      <input type="email" class="form-control" name="email" id="email" placeholder="Correo" data-rule="email" data-msg="Please enter a valid email" required/>
-                      <div class="validation"></div>
+                    <input type="text" class="form-control" name="Drop" id="Drop" placeholder="Hotel de dejada" data-rule="minlen:4"   data-msg="Please enter a valid Drop off place" required/>
+                    <div class="validation"></div>
                   </div>
                   <div class="form-group">
-                      <input type="text" class="form-control" name="Pick" id="Pick" placeholder="Hotel de recogida" data-rule="minlen:4"  data-msg="Please enter a valid Pick up place" required/>
-                      <div class="validation"></div>
+                    <input type="date" class="form-control" name="Date" id="start" placeholder="Drop off" data-rule="date"  data-msg="Please enter a valid date" required/>
+                    <div class="validation"></div>
                   </div>
                   <div class="form-group">
-                      <input type="text" class="form-control" name="Drop" id="Drop" placeholder="Hotel de dejada" data-rule="minlen:4"   data-msg="Please enter a valid Drop off place" required/>
-                      <div class="validation"></div>
+                    <input type="number" class="form-control" name="number" id="number" placeholder="PAX" data-rule="date"  data-msg="Please enter a valid number" required/>
+                    <div class="validation"></div>
                   </div>
                   <div class="form-group">
-                      <input type="date" class="form-control" name="Date" id="start" placeholder="Drop off" data-rule="date"  data-msg="Please enter a valid date" required/>
-                      <div class="validation"></div>
+                    <textarea type="text" class="form-control" name="Description" id="Description" placeholder="Detalles" data-rule="minlen:4"  data-msg="Please enter a valid description" required></textarea>
+                    <div class="validation"></div>
                   </div>
-                  <div class="form-group">
-                      <input type="number" class="form-control" name="number" id="number" placeholder="Pasajeros" data-rule="date"  data-msg="Please enter a valid number" required/>
-                      <div class="validation"></div>
-                  </div>
-                  <div class="form-group">
-                      <textarea type="text" class="form-control" name="Description" id="Description" placeholder="Detalles" data-rule="minlen:4"  data-msg="Please enter a valid description" required></textarea>
-                      <div class="validation"></div>
-                  </div>
-      
                   <div class="text-center" id="confirmacion"><button type="submit" id="BtmForm" class="btn btn-primary btn-lg">Enviar</button></div>
             </form>
               <!--/.row-->
@@ -274,7 +273,8 @@
   }(document, 'script', 'facebook-jssdk'));
 </script>
 
-
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="../js/script.js"></script>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="../js/jquery-2.1.1.min.js"></script>
@@ -286,6 +286,9 @@
 <script src="../js/jquery.bxslider.min.js"></script>
 <script type="text/javascript" src="../js/fliplightbox.min.js"></script>
 <script src="../js/functions.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="../js/Contact.js"></script>
+
 
 
 <script type="text/javascript" src="opera.js"></script>
